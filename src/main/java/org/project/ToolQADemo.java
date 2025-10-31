@@ -24,18 +24,17 @@ public class ToolQADemo {
         String TitleName = js.executeScript("return document.title;").toString();
         System.out.println("Title of the page = "+TitleName);
 
-
         //Navigate to new Page i.e to generate access page. (launch new url)
         js.executeScript("window.location = 'https://demo.guru99.com/'");
         String TitleName2 = js.executeScript("return document.title;").toString();
         System.out.println("Title of the page = "+TitleName2);
 
-
         //Vertical scroll down by 600  pixels
         js.executeScript("window.scrollBy(0,600)");
         System.out.println("Scrolling Successful");
-
         js.executeScript("alert('Welcome to ToolsQA');");
+
     }
+
 
 }
