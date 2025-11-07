@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ExampleSuite" parallel="tests" >
-    <test name="ExampleTest">
+<suite name="ExampleSuite" >
+    <test name="ChromeTest">
 
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="org.project.Practice">
+            <class name="org.project.SauceTest">
             </class>
         </classes>
     </test>
