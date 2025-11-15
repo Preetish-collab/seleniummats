@@ -23,7 +23,7 @@ public class ExcelReader {
         driver.navigate().to("https://demo.guru99.com/V4/");
         driver.findElement(By.name("uid")).sendKeys(Username);
         driver.findElement(By.name("password")).sendKeys(Password);
-    }
+            }
 
     @DataProvider(name="testdata")
     public Object[][] readExcelData() throws IOException, InvalidFormatException {
