@@ -30,7 +30,7 @@ public class BaseTestSauceL {
         browserOptions.setBrowserVersion("latest");
         Map<String, Object> sauceOptions = new HashMap<>();
         sauceOptions.put("username", "oauth-preetishkumarb-0515a");
-        sauceOptions.put("accessKey", "b8882f79-07e6-4349-a816-79b64f7092f8");
+        sauceOptions.put("accessKey", "#############S");
         sauceOptions.put("build", "selenium-build-S9JBS");
         sauceOptions.put("name", "test-sauce-labs");
         browserOptions.setCapability("sauce:options", sauceOptions);

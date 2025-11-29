@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ExampleSuite" >
+<suite name="ExampleSuite" parallel="tests" thread-count="2">
     <test name="ChromeTest">
 
-        <parameter name="browser" value="chrome"/>
+<!--       <parameter name="username" value="preetish"></parameter>-->
+<!--        <parameter name="password" value="preetish123"></parameter>-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Smoke"/>-->
+<!--                <include name="Sanity"/>-->
+<!--            </run>-->
+<!--        </groups>-->
         <classes>
-            <class name="org.project.SauceTest">
+            <class name="org.project.TestNGParameterization">
             </class>
         </classes>
     </test>

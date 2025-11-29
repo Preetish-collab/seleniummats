@@ -1,7 +1,9 @@
 package org.project;
 
+import io.cucumber.testng.CucumberOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
@@ -45,8 +47,6 @@ public class WindowHandlesPractice {
 
 
     }
-
-
 
 
 
