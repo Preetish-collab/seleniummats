@@ -8,7 +8,7 @@ public class equalsINSTring {
         String s4 = "preetish";
         System.out.println(s1 == s2);//different names
         System.out.println(s1 == s3);//case mismatch
-        System.out.println(s1 == s4); //matched
+        System.out.println(s1 == s4); //matched same reference
 
         System.out.println(s1.equals(s2));//different names
         System.out.println(s1.equals(s3));//case mismatch

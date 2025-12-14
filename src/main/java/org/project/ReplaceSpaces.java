@@ -12,3 +12,4 @@ public class ReplaceSpaces {
         System.out.println(string);
     }
 }
+//Once-in-a-blue-moon
