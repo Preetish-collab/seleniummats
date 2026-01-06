@@ -161,6 +161,12 @@
       <version>5.5.6</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>7.32.0</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 
   <build>
