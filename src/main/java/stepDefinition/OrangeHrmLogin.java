@@ -21,20 +21,20 @@ public class OrangeHrmLogin {
         driver.manage().window().maximize();
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         Thread.sleep(5000); // Wait for 5 seconds to ensure the page loads completely
-        String title= driver.getTitle();
+        String title = driver.getTitle();
         System.out.println(title);
 
-    }
 
+    }
 
 
         @When("I enter valid {string} and {string}")
-        public void iEnterValidAnd(String username, String password) {
-        driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(username);
-        driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(password);
+        public void iEnterValidAnd(String username, String password){
+            driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(username);
+            driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(password);
+        }
 
 
-    }
 
     @And("I click on the login button")
     public void i_click_on_the_login_button() throws InterruptedException {

@@ -31,6 +31,9 @@ public class WindowHandleExamp {
         WebElement popupwindow=driver.findElement(By.xpath("//button[text()='Popup Windows']"));
         popupwindow.click();
         closeWindow(driver,"Selenium");
+        System.out.println("selenium window closed");
         closeWindow(driver,"Fast and reliable end-to-end testing for modern web apps | Playwright");
+        System.out.println("Fast and reliable window closed");
+        driver.quit();
     }
 }

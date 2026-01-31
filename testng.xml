@@ -1,20 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ExampleSuite" parallel="tests" thread-count="2">
-    <test name="ChromeTest">
-
-<!--       <parameter name="username" value="preetish"></parameter>-->
-<!--        <parameter name="password" value="preetish123"></parameter>-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="Smoke"/>-->
-<!--                <include name="Sanity"/>-->
-<!--            </run>-->
-<!--        </groups>-->
-        <classes>
-            <class name="org.project.TestNGParameterization">
-            </class>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Preetish/IdeaProjects/Bangalore_Testing"><classes><class name="org.project.ExcelReader"><methods><include name="setup"/></methods></class><class name="org.project.PDFExtractionTest"><methods><include name="readpdfinsameBrowser"/></methods></class><class name="org.project.PdfTextExtractorTest"><methods><include name="extractPdfTextFromPage"/></methods></class><class name="org.project.SauceTest"><methods><include name="loginTest"/><include name="checkinventoryItem"/></methods></class><class name="org.project.TestNGDependsOnMethods"><methods><include name="loginTest"/></methods></class><class name="org.project.TestNGParameterization"><methods><include name="loginTest"/></methods></class><class name="org.project.TestNGPriority"><methods><include name="testA"/><include name="testB"/><include name="testC"/></methods></class></classes></test></suite>

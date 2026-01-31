@@ -1,14 +1,18 @@
 package myHooks;
 
 
+import driverFactory.DriverFactory;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
+import org.openqa.selenium.WebDriver;
 
 public class OrangeHRMHooks {
     @Before("@Smoke")
 public void setup_browser() {
+//        WebDriver driver= DriverFactory.initializeBrowser("firefox");
+//        driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         System.out.println("Launch Browser");
     }
 
