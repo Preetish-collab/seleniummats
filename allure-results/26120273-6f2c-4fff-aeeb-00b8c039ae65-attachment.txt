@@ -1,0 +1,15 @@
+Token is 9b30d261049c363
+{
+  bookingid: 2290,
+  booking: {
+    firstname: 'Preetish',
+    lastname: 'Kumar',
+    totalprice: 300,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-01-01', checkout: '2026-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+New Booking id2290
+201
+Created

@@ -1,0 +1,188 @@
+{
+  "config": {
+    "argv": [],
+    "configFile": "E:\\Play Wright\\playWrighttest\\playwright.config.js",
+    "rootDir": "E:/Play Wright/playWrighttest/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "E:/Play Wright/playWrighttest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "E:/Play Wright/playWrighttest/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/Play Wright/playWrighttest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "E:/Play Wright/playWrighttest/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/Play Wright/playWrighttest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "E:/Play Wright/playWrighttest/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "resultsjson"
+        }
+      ],
+      [
+        "E:\\Play Wright\\playWrighttest\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFolder": "allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.61.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "DeleteCall.spec.js",
+      "file": "DeleteCall.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test DeleteApi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3069,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Token is e4da0dc6656f29c\n"
+                    },
+                    {
+                      "text": "{\n  bookingid: \u001b[33m4968\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Preetish'\u001b[39m,\n    lastname: \u001b[32m'Kumar'\u001b[39m,\n    totalprice: \u001b[33m300\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2026-01-01'\u001b[39m, checkout: \u001b[32m'2026-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'Breakfast'\u001b[39m\n  }\n}\n"
+                    },
+                    {
+                      "text": "New Booking id4968\n"
+                    },
+                    {
+                      "text": "\u001b[33m201\u001b[39m\n"
+                    },
+                    {
+                      "text": "Created\n"
+                    },
+                    {
+                      "text": "#################################################\n"
+                    },
+                    {
+                      "text": "\u001b[33m404\u001b[39m\n"
+                    },
+                    {
+                      "text": "Not Found\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-19T13:10:55.369Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "828536b23c5305d8e96c-9a89e056a5f8b8ca31e1",
+          "file": "DeleteCall.spec.js",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-19T13:10:53.896Z",
+    "duration": 4673.01099999994,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

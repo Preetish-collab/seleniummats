@@ -1,0 +1,18 @@
+Token is b1a42a69d1812e1
+{
+  bookingid: 3175,
+  booking: {
+    firstname: 'Preetish',
+    lastname: 'Kumar',
+    totalprice: 300,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-01-01', checkout: '2026-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+New Booking id3175
+201
+Created
+#################################################
+404
+Not Found

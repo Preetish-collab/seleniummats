@@ -1,0 +1,18 @@
+Token is e4da0dc6656f29c
+{
+  bookingid: 4968,
+  booking: {
+    firstname: 'Preetish',
+    lastname: 'Kumar',
+    totalprice: 300,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-01-01', checkout: '2026-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+New Booking id4968
+201
+Created
+#################################################
+404
+Not Found

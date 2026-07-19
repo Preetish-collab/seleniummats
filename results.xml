@@ -1,0 +1,27 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="4.67301099999994">
+<testsuite name="DeleteCall.spec.js" timestamp="2026-07-19T13:10:54.655Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.069" errors="0">
+<testcase name="Test DeleteApi" classname="DeleteCall.spec.js" time="3.069">
+<system-out>
+<![CDATA[Token is e4da0dc6656f29c
+{
+  bookingid: [33m4968[39m,
+  booking: {
+    firstname: [32m'Preetish'[39m,
+    lastname: [32m'Kumar'[39m,
+    totalprice: [33m300[39m,
+    depositpaid: [33mtrue[39m,
+    bookingdates: { checkin: [32m'2026-01-01'[39m, checkout: [32m'2026-01-01'[39m },
+    additionalneeds: [32m'Breakfast'[39m
+  }
+}
+New Booking id4968
+[33m201[39m
+Created
+#################################################
+[33m404[39m
+Not Found
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
