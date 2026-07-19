@@ -3,7 +3,7 @@ Feature: Test Orange HRM Login Functionality
 #  Background: I am on the Orange HRM login page
 #     When     I enter valid "<username>" and "<password>"
 #     And      I click on the login button
- @Smoke
+  @Smoke
   Scenario Outline: Successful login with valid credentials
     Given  I am on the Orange HRM login page
     When   I enter valid "<username>" and "<password>"
@@ -16,7 +16,7 @@ Feature: Test Orange HRM Login Functionality
 
 
 
-@Regression
+  @Regression
   Scenario Outline: Unsuccessful login with invalid credentials
     Given  I am on the Orange HRM login page
     When   I enter valid "<username>" and "<password>"
