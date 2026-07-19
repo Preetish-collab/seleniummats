@@ -10,14 +10,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 
 public class OrangeHrmLogin {
     public static WebDriver driver;
 
     @Given("I am on the Orange HRM login page")
     public void i_am_on_the_orange_hrm_login_page() throws InterruptedException {
-        WebDriverManager.firefoxdriver().setup();
-        driver = new FirefoxDriver();
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         Thread.sleep(5000); // Wait for 5 seconds to ensure the page loads completely
@@ -60,4 +61,23 @@ public class OrangeHrmLogin {
             System.out.println("Invalid credentials message is not displayed");
         }
     }
+
+//    @And("I close the browser")
+//    public void iCloseTheBrowser() {
+//        driver.close();
+//    }
+
+    @Then("I click on PIM link")
+    public void iClickOnPIMLink() {
+        driver.findElement(By.xpath("//span[text()='PIM']")).click();
+       WebElement ele= driver.findElement(By.xpath("//a[text()='Employee List']"));
+       System.out.println(ele.isDisplayed());
+
+    }
+
+//    @And("I verify homepage title")
+//    public void iVerifyHomepageTitle() {
+//        String title=driver.getTitle();
+//        Assert.assertEquals(title,"OrangeHRM");
+//    }
 }

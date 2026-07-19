@@ -17,28 +17,29 @@ public void setup_browser() {
     }
 
 
-//    @Before(order=2)
-//    public void setup_url() {
-//        System.out.println("Launch url");
-//    }
-//
-//
-//    @After(order=2)
-//    public void teardown_close() {
-//        System.out.println("Closing Browser");
-//    }
+   @Before(order=2)
+    public void setup_url() {
+      System.out.println("Launch url");
+  }
+
+
+   @After(order=2)
+   public void teardown_close() {
+      System.out.println("Closing Browser");
+
+   }
 
     @After("@Smoke")
     public void teardown_logout() {
         System.out.println("Logout application");
     }
 
-//   @BeforeStep
-//    public void takeScreeshot() {
-//        System.out.println("TakeScreenshot before each step");
-//    }
-//    @AfterStep
-//    public void refreshPage() {
-//        System.out.println("Refresh page after each step");
-//    }
+   @BeforeStep
+    public void takeScreeshot() {
+       System.out.println("TakeScreenshot before each step");
+    }
+    @AfterStep
+   public void refreshPage() {
+       System.out.println("Refresh page after each step");
+  }
 }

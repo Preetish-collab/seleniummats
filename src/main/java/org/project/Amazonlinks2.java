@@ -17,7 +17,7 @@ public class Amazonlinks2 {
         WebDriverManager.chromedriver().setup();
          driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
 
         driver.get("https://www.amazon.in");   // Replace with your URL
 
