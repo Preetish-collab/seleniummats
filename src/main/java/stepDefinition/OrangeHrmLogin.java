@@ -17,8 +17,8 @@ public class OrangeHrmLogin {
 
     @Given("I am on the Orange HRM login page")
     public void i_am_on_the_orange_hrm_login_page() throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        WebDriverManager.firefox().setup();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         Thread.sleep(5000); // Wait for 5 seconds to ensure the page loads completely
