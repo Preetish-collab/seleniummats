@@ -18,17 +18,17 @@ public class LinksOpsSelenium {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.amazon.in/");
-        int linkcount=0;
-        List<WebElement> links=driver.findElements(By.tagName("a"));
+        int linkcount = 0;
+        List<WebElement> links = driver.findElements(By.tagName("a"));
 
-        System.out.println("Total number of links: "+links.size());
-        for(WebElement link:links){
-            if(!link.getText().equals("")){
+        System.out.println("Total number of links: " + links.size());
+        for (WebElement link : links) {
+            if (!link.getText().equals("")) {
                 System.out.println(link.getAttribute("href"));
                 linkcount++;
             }
             System.out.println(link.getText());
         }
-System.out.println("Total Links::: "+linkcount);
+        System.out.println("Total Links::: "+linkcount);
     }
 }

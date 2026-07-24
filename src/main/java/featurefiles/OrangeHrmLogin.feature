@@ -10,6 +10,7 @@ Feature: Test Orange HRM Login Functionality
     And    I click on the login button
     Then   I should be redirected to the dashboard page
 
+
     Examples:
       | username | password |
       | Admin    | admin123 |
