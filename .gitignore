@@ -11,7 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
- .SFDC.yaml
+*.yaml
+*.gittext
 
 
 ### Eclipse ###
