@@ -11,6 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
+ .SFDC.yaml
+
 
 ### Eclipse ###
 .apt_generated
