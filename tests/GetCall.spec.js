@@ -1,11 +1,11 @@
 import {test,expect} from "@playwright/test"
 //npx playwright test tests/GetCall.spec.js 
-test ("Test GetApi", async function ({request}){
 
+test ("Test GetApi", async function ({request}){
  const resp=  await request.get("https://jsonplaceholder.typicode.com/posts/1");
  const respbdy=await resp.body();
- const respstatus=resp.status();
- const reststatustest=resp.statusText();
+ const respstatus=await resp.status();
+ const reststatustest=await resp.statusText();
  const respjson=await resp.json();
  const respheadr=await resp.headers();
  const respheadrarry=await resp.headersArray();

@@ -35,17 +35,17 @@ test("simple table",async ({page})=>{
     
 
 
-///// 4) Print all product details using loop
-  /* for(let i = 0; i < await rows.count(); i++) 
-   {
-    const row = rows.nth(i);
-    const tds = row.locator("td");
-    for (let j = 0; j < await tds.count()-1; j++) 
-        {
-               console.log(await tds.nth(j).textContent());
-          }
-    }
-*/
+ // 4)Print all product details using loop
+//    for(let i = 0; i < await rows.count(); i++) 
+//    {
+//     const row = rows.nth(i);
+//     const tds = row.locator("td");
+//     for (let j = 0; j < await tds.count()-1; j++) 
+//         {
+//                console.log(await tds.nth(j).textContent());
+//           }
+//     }
+
 
 
 

@@ -37,7 +37,7 @@ test ("Test PutApi", async function ({request})
             "depositpaid" :true,
             "bookingdates":{
                 "checkin" : "2026-01-01",
-                   "checkout" : "2026-04-02"
+                "checkout" : "2026-04-02"
             },
             "additionalneeds" : "Dinner"
         }

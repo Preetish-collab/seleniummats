@@ -8,7 +8,7 @@ test('validate broken link on the webpage', async ({ page }) => {
   const UniqueUrls = new Set();
 
   for (const link of allLinksOnWebPage) {
-    const href = await link.getAttribute('href',{timeout:240000});
+    const href = await link.getAttribute('href');
     
     console.log("href :"+href);
     if (href) {

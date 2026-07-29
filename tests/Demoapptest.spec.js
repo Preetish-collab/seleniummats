@@ -22,6 +22,8 @@ test('orange Hrm',async({page})=>{
    const links=await page.$$('a');
    for(const link of links){
     const linktext=await link.textContent();
+    //   const linktext=page.$$eval('a',links=>links.map(el=>el.textContent))
+    //to run javascript in web browser we use evaluate method
     console.log(linktext);
    }
 

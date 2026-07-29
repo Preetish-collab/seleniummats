@@ -109,13 +109,13 @@
   },
   "suites": [
     {
-      "title": "DeleteCall.spec.js",
-      "file": "DeleteCall.spec.js",
+      "title": "PostCall.spec.js",
+      "file": "PostCall.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Test DeleteApi",
+          "title": "Test PostApi",
           "ok": true,
           "tags": [],
           "tests": [
@@ -127,40 +127,22 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3069,
+                  "duration": 2386,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Token is e4da0dc6656f29c\n"
+                      "text": "\u001b[33m200\u001b[39m\n"
                     },
                     {
-                      "text": "{\n  bookingid: \u001b[33m4968\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Preetish'\u001b[39m,\n    lastname: \u001b[32m'Kumar'\u001b[39m,\n    totalprice: \u001b[33m300\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2026-01-01'\u001b[39m, checkout: \u001b[32m'2026-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'Breakfast'\u001b[39m\n  }\n}\n"
-                    },
-                    {
-                      "text": "New Booking id4968\n"
-                    },
-                    {
-                      "text": "\u001b[33m201\u001b[39m\n"
-                    },
-                    {
-                      "text": "Created\n"
-                    },
-                    {
-                      "text": "#################################################\n"
-                    },
-                    {
-                      "text": "\u001b[33m404\u001b[39m\n"
-                    },
-                    {
-                      "text": "Not Found\n"
+                      "text": "{\n  bookingid: \u001b[33m1308\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Jim'\u001b[39m,\n    lastname: \u001b[32m'Brown'\u001b[39m,\n    totalprice: \u001b[33m111\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'Breakfast'\u001b[39m\n  }\n}\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-19T13:10:55.369Z",
+                  "startTime": "2026-07-28T14:23:08.083Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -168,9 +150,9 @@
               "status": "expected"
             }
           ],
-          "id": "828536b23c5305d8e96c-9a89e056a5f8b8ca31e1",
-          "file": "DeleteCall.spec.js",
-          "line": 4,
+          "id": "c002342c30f5b1c9f926-bac6ea47551207866d0e",
+          "file": "PostCall.spec.js",
+          "line": 3,
           "column": 5
         }
       ]
@@ -178,8 +160,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-19T13:10:53.896Z",
-    "duration": 4673.01099999994,
+    "startTime": "2026-07-28T14:23:07.097Z",
+    "duration": 3458.1140000000596,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
