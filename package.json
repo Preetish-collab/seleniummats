@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "tests":"tests"
+    "tests": "tests"
   },
-  "scripts": {},
+  "scripts": {
+     "test": "cucumber-js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +16,14 @@
   "devDependencies": {
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.0",
-    "allure-playwright": "^3.10.2"
+    "allure-playwright": "^3.10.2",
+    "playwright-bdd": "^9.2.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.0",
+    "csv-parse": "^7.0.1",
+    "csv-parser": "^3.2.1",
+    "exceljs": "^4.4.0",
+    "xlsx": "^0.18.5"
   }
 }

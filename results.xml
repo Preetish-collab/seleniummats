@@ -1,21 +1,8 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.4581140000000596">
-<testsuite name="PostCall.spec.js" timestamp="2026-07-28T14:23:07.621Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.386" errors="0">
-<testcase name="Test PostApi" classname="PostCall.spec.js" time="2.386">
-<system-out>
-<![CDATA[[33m200[39m
-{
-  bookingid: [33m1308[39m,
-  booking: {
-    firstname: [32m'Jim'[39m,
-    lastname: [32m'Brown'[39m,
-    totalprice: [33m111[39m,
-    depositpaid: [33mtrue[39m,
-    bookingdates: { checkin: [32m'2018-01-01'[39m, checkout: [32m'2019-01-01'[39m },
-    additionalneeds: [32m'Breakfast'[39m
-  }
-}
-]]>
-</system-out>
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="32.962583">
+<testsuite name="Hookstest.spec.js" timestamp="2026-08-02T15:55:19.197Z" hostname="chromium" tests="2" failures="0" skipped="0" time="30.922" errors="0">
+<testcase name="MyHomePage" classname="Hookstest.spec.js" time="7.729">
+</testcase>
+<testcase name="Myinfo" classname="Hookstest.spec.js" time="23.193">
 </testcase>
 </testsuite>
 </testsuites>

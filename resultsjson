@@ -1,6 +1,14 @@
 {
   "config": {
-    "argv": [],
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Play Wright\\playWrighttest\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/Hookstest.spec.js",
+      "--project",
+      "chromium",
+      "--headed"
+    ],
     "configFile": "E:\\Play Wright\\playWrighttest\\playwright.config.js",
     "rootDir": "E:/Play Wright/playWrighttest/tests",
     "failOnFlakyTests": false,
@@ -102,20 +110,20 @@
     "shard": null,
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.61.1",
     "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "PostCall.spec.js",
-      "file": "PostCall.spec.js",
+      "title": "Hookstest.spec.js",
+      "file": "Hookstest.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Test PostApi",
+          "title": "MyHomePage",
           "ok": true,
           "tags": [],
           "tests": [
@@ -127,22 +135,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2386,
+                  "duration": 7729,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "\u001b[33m200\u001b[39m\n"
-                    },
-                    {
-                      "text": "{\n  bookingid: \u001b[33m1308\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Jim'\u001b[39m,\n    lastname: \u001b[32m'Brown'\u001b[39m,\n    totalprice: \u001b[33m111\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'Breakfast'\u001b[39m\n  }\n}\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-28T14:23:08.083Z",
+                  "startTime": "2026-08-02T15:55:19.757Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -150,19 +151,53 @@
               "status": "expected"
             }
           ],
-          "id": "c002342c30f5b1c9f926-bac6ea47551207866d0e",
-          "file": "PostCall.spec.js",
-          "line": 3,
-          "column": 5
+          "id": "ccb14caf8da03c09eb85-11a99b079a8aacb333a4",
+          "file": "Hookstest.spec.js",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "Myinfo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23193,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T15:55:28.091Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ccb14caf8da03c09eb85-4b9c28cd2c4bbd9a2e4b",
+          "file": "Hookstest.spec.js",
+          "line": 28,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-28T14:23:07.097Z",
-    "duration": 3458.1140000000596,
-    "expected": 1,
+    "startTime": "2026-08-02T15:55:19.137Z",
+    "duration": 32962.583,
+    "expected": 2,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

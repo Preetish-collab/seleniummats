@@ -16,6 +16,7 @@ test('orange Hrm',async({page})=>{
    await page.waitForTimeout(5000);
    const logo=page.getByAltText('client brand banner');
    await expect(logo).toBeVisible();
+   expect (await page.screenshot({path:'screenshot.png',fullPage:true})).toMatchSnapshot('screenshot.png');
    //for duplicates used exact:true
    await expect(page.getByText('Admin',{exact:true})).toBeVisible();
    //capture multiple elements
