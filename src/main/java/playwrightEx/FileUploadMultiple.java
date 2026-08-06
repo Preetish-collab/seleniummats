@@ -20,7 +20,8 @@ public class FileUploadMultiple {
         page.frameLocator("#iframeResult").locator("#myFile").setInputFiles(new Path[] {
 
                 Paths.get("./src/test/resources/files/IMG-6873.jpg"),
-                Paths.get("./src/test/resources/files/IMG-6874.jpg")});
+                Paths.get("./src/test/resources/files/IMG-6874.jpg")
+                });
 
 
     }

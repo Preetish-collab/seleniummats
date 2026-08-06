@@ -12,14 +12,17 @@ public class LoginPage {
        passwordlocator= page.getByPlaceholder("Password");
        submitbuttonlocator= page.locator("//button[@type='submit']");
     }
-    public void enterUsername(String username){
+    public void enterUsername(String username)
+    {
         usernamelocator.fill(username);
+
     }
     public void enterPassword(String password){
         passwordlocator.fill(password);
 
 }
        public void clickSubmit(){
+
         submitbuttonlocator.click();
     }
 }
