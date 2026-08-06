@@ -19,9 +19,12 @@ public class WebTable {
 
 
 //col count
-        System.out.println(page.locator(".dataTable > tbody").locator("tr:first-child").locator("td").count());
-        assertThat(page.locator(".dataTable > tbody").locator("tr:first-child").locator("td:nth-child(2)")).hasText("Nifty");
-        page.locator(".dataTable > tbody").allInnerTexts().forEach(text -> System.out.println(text));
+        System.out.println(page.locator(".dataTable > tbody").locator("tr:first-child")
+                .locator("td").count());
+        assertThat(page.locator(".dataTable > tbody").locator("tr:first-child")
+                .locator("td:nth-child(2)")).hasText("Nifty");
+        page.locator(".dataTable > tbody").allInnerTexts()
+                .forEach(text -> System.out.println(text));
 
 
 
