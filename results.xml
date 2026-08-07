@@ -1,8 +1,42 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="32.962583">
-<testsuite name="Hookstest.spec.js" timestamp="2026-08-02T15:55:19.197Z" hostname="chromium" tests="2" failures="0" skipped="0" time="30.922" errors="0">
-<testcase name="MyHomePage" classname="Hookstest.spec.js" time="7.729">
-</testcase>
-<testcase name="Myinfo" classname="Hookstest.spec.js" time="23.193">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="1" time="8.16809">
+<testsuite name="TableHandle.spec.js" timestamp="2026-08-07T09:41:38.663Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.72" errors="1">
+<testcase name="TableHandle" classname="TableHandle.spec.js" time="5.72">
+<system-out>
+<![CDATA[Number of columns: [33m4[39m
+Number of rows: [33m5[39m
+
+[[ATTACHMENT|test-results\TableHandle-TableHandle-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\TableHandle-TableHandle-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\TableHandle-TableHandle-chromium\error-context.md]]
+]]>
+</system-out>
+<error message="coloums is not defined" type="ReferenceError">
+<![CDATA[  [chromium] › TableHandle.spec.js:3:1 › TableHandle ───────────────────────────────────────────────
+
+    ReferenceError: coloums is not defined
+
+       8 |     const rows=await table.locator('tbody tr');//fetching all rows
+       9 |     console.log('Number of rows:',await rows.count());
+    > 10 |      expect(await coloums.count()).toBe(4);
+         |                   ^
+      11 |     expect(await rows.count()).toBe(5);
+      12 |     
+      13 |    //2 //applying filter on table for single match
+        at E:\Play Wright\playWrighttest\tests\TableHandle.spec.js:10:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\TableHandle-TableHandle-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\TableHandle-TableHandle-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\TableHandle-TableHandle-chromium\error-context.md
+]]>
+</error>
 </testcase>
 </testsuite>
 </testsuites>

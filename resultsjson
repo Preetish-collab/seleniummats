@@ -4,7 +4,7 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "E:\\Play Wright\\playWrighttest\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "tests/Hookstest.spec.js",
+      "tests/TableHandle.spec.js",
       "--project",
       "chromium",
       "--headed"
@@ -117,14 +117,14 @@
   },
   "suites": [
     {
-      "title": "Hookstest.spec.js",
-      "file": "Hookstest.spec.js",
+      "title": "TableHandle.spec.js",
+      "file": "TableHandle.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "MyHomePage",
-          "ok": true,
+          "title": "TableHandle",
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -137,57 +137,70 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7729,
-                  "errors": [],
-                  "stdout": [],
+                  "status": "failed",
+                  "duration": 5720,
+                  "error": {
+                    "message": "ReferenceError: coloums is not defined",
+                    "stack": "ReferenceError: coloums is not defined\n    at E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js:10:19",
+                    "location": {
+                      "file": "E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js",
+                      "column": 19,
+                      "line": 10
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mconst\u001b[39m rows\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m table\u001b[33m.\u001b[39mlocator(\u001b[32m'tbody tr'\u001b[39m)\u001b[33m;\u001b[39m\u001b[90m//fetching all rows\u001b[39m\n \u001b[90m  9 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Number of rows:'\u001b[39m\u001b[33m,\u001b[39m\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m      expect(\u001b[36mawait\u001b[39m coloums\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     expect(\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     \n \u001b[90m 13 |\u001b[39m    \u001b[90m//2 //applying filter on table for single match\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js",
+                        "column": 19,
+                        "line": 10
+                      },
+                      "message": "ReferenceError: coloums is not defined\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mconst\u001b[39m rows\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m table\u001b[33m.\u001b[39mlocator(\u001b[32m'tbody tr'\u001b[39m)\u001b[33m;\u001b[39m\u001b[90m//fetching all rows\u001b[39m\n \u001b[90m  9 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Number of rows:'\u001b[39m\u001b[33m,\u001b[39m\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m      expect(\u001b[36mawait\u001b[39m coloums\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     expect(\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     \n \u001b[90m 13 |\u001b[39m    \u001b[90m//2 //applying filter on table for single match\u001b[39m\u001b[0m\n\u001b[2m    at E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js:10:19\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Number of columns: \u001b[33m4\u001b[39m\n"
+                    },
+                    {
+                      "text": "Number of rows: \u001b[33m5\u001b[39m\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-02T15:55:19.757Z",
+                  "startTime": "2026-08-07T09:41:39.496Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\Play Wright\\playWrighttest\\test-results\\TableHandle-TableHandle-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "E:\\Play Wright\\playWrighttest\\test-results\\TableHandle-TableHandle-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "E:\\Play Wright\\playWrighttest\\test-results\\TableHandle-TableHandle-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js",
+                    "column": 19,
+                    "line": 10
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
-          "id": "ccb14caf8da03c09eb85-11a99b079a8aacb333a4",
-          "file": "Hookstest.spec.js",
-          "line": 19,
-          "column": 1
-        },
-        {
-          "title": "Myinfo",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 23193,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-08-02T15:55:28.091Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "ccb14caf8da03c09eb85-4b9c28cd2c4bbd9a2e4b",
-          "file": "Hookstest.spec.js",
-          "line": 28,
+          "id": "4ec0caae61526c56ab1f-5fee866de91d7607d19d",
+          "file": "TableHandle.spec.js",
+          "line": 3,
           "column": 1
         }
       ]
@@ -195,11 +208,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-02T15:55:19.137Z",
-    "duration": 32962.583,
-    "expected": 2,
+    "startTime": "2026-08-07T09:41:38.582Z",
+    "duration": 8168.09,
+    "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }

@@ -23,7 +23,9 @@ module.exports = defineConfig({
     screenshot: 'on-first-failure',
     video: 'retain-on-failure',
   },
+  
   projects: [
+  
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },

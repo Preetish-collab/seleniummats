@@ -3,13 +3,17 @@ const {test, expect}= require('@playwright/test')
 test ('Download file', async ({page})=>{
 
    await page.goto('https://demo.automationtesting.in/FileDownload.html');
-   const downloadPromise = page.waitForEvent('download');
+      const downloadPromise = page.waitForEvent('download');
 
-// 2. Perform the action that triggers the download
-await page.locator("(//a[text()='Download'])[1]").click();
+  // 2. Perform the action that triggers the download
+ await page.locator("(//a[text()='Download'])[1]").click();
 
-// 3. Await the download process
-const download = await downloadPromise;
+  // 3. Await the download process
+   const download = await downloadPromise;
+// const [download] = await Promise.all([
+//   page.waitForEvent('download'), // Wait for the download event
+//   page.locator("(//a[text()='Download'])[1]").click() // Trigger the download
+// ]);
 
 // 4. Save the file to your desired destination
 await download.saveAs('E:\\Play Wright\\playWrighttest\\tests\\downloads\\' + download.suggestedFilename());

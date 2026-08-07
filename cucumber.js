@@ -1,6 +1,5 @@
 module.exports = {
   default: {
-    require: ['features/stepDefinitions/**/*.js'],
-    
+    require: ['features/support/**/*.js', 'features/stepDefinitions/**/*.js'],
   },
 };

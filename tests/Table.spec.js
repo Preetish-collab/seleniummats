@@ -20,11 +20,11 @@ test("simple table",async ({page})=>{
 
 ////// 2) Select check box for Product 4
     //Returns row where Product4 is exist
-     /* const machedRow=rows.filter({
+     /* const matchedRow=rows.filter({
         has: page.locator('td'),
         hasText: 'Product 4'
        }) 
-       await machedRow.locator('input').check()
+       await matchedRow.locator('input').check()
     */
 
 
@@ -76,9 +76,9 @@ test("simple table",async ({page})=>{
 ///  --------
 
 async function selectProduct(rows, page, name){
-const machedRow=rows.filter({
+const matchedRow=rows.filter({
     has: page.locator('td'),
     hasText: name
    }) 
-   await machedRow.locator('input').check()
+   await matchedRow.locator('input').check()
 }
