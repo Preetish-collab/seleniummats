@@ -4,7 +4,7 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "E:\\Play Wright\\playWrighttest\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "tests/TableHandle.spec.js",
+      "tests/StorageSession.spec.js",
       "--project",
       "chromium",
       "--headed"
@@ -117,14 +117,14 @@
   },
   "suites": [
     {
-      "title": "TableHandle.spec.js",
-      "file": "TableHandle.spec.js",
+      "title": "StorageSession.spec.js",
+      "file": "StorageSession.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "TableHandle",
-          "ok": false,
+          "title": "demoblaze login",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -137,69 +137,22 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 5720,
-                  "error": {
-                    "message": "ReferenceError: coloums is not defined",
-                    "stack": "ReferenceError: coloums is not defined\n    at E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js:10:19",
-                    "location": {
-                      "file": "E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js",
-                      "column": 19,
-                      "line": 10
-                    },
-                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mconst\u001b[39m rows\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m table\u001b[33m.\u001b[39mlocator(\u001b[32m'tbody tr'\u001b[39m)\u001b[33m;\u001b[39m\u001b[90m//fetching all rows\u001b[39m\n \u001b[90m  9 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Number of rows:'\u001b[39m\u001b[33m,\u001b[39m\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m      expect(\u001b[36mawait\u001b[39m coloums\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     expect(\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     \n \u001b[90m 13 |\u001b[39m    \u001b[90m//2 //applying filter on table for single match\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js",
-                        "column": 19,
-                        "line": 10
-                      },
-                      "message": "ReferenceError: coloums is not defined\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[36mconst\u001b[39m rows\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m table\u001b[33m.\u001b[39mlocator(\u001b[32m'tbody tr'\u001b[39m)\u001b[33m;\u001b[39m\u001b[90m//fetching all rows\u001b[39m\n \u001b[90m  9 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Number of rows:'\u001b[39m\u001b[33m,\u001b[39m\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m      expect(\u001b[36mawait\u001b[39m coloums\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     expect(\u001b[36mawait\u001b[39m rows\u001b[33m.\u001b[39mcount())\u001b[33m.\u001b[39mtoBe(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     \n \u001b[90m 13 |\u001b[39m    \u001b[90m//2 //applying filter on table for single match\u001b[39m\u001b[0m\n\u001b[2m    at E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js:10:19\u001b[22m"
-                    }
-                  ],
-                  "stdout": [
-                    {
-                      "text": "Number of columns: \u001b[33m4\u001b[39m\n"
-                    },
-                    {
-                      "text": "Number of rows: \u001b[33m5\u001b[39m\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 8377,
+                  "errors": [],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-07T09:41:39.496Z",
+                  "startTime": "2026-08-10T02:28:01.841Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "E:\\Play Wright\\playWrighttest\\test-results\\TableHandle-TableHandle-chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "E:\\Play Wright\\playWrighttest\\test-results\\TableHandle-TableHandle-chromium\\video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "E:\\Play Wright\\playWrighttest\\test-results\\TableHandle-TableHandle-chromium\\error-context.md"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "E:\\Play Wright\\playWrighttest\\tests\\TableHandle.spec.js",
-                    "column": 19,
-                    "line": 10
-                  }
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "4ec0caae61526c56ab1f-5fee866de91d7607d19d",
-          "file": "TableHandle.spec.js",
+          "id": "d6a438b295e5b058505b-b1906690cb541f1be04b",
+          "file": "StorageSession.spec.js",
           "line": 3,
           "column": 1
         }
@@ -208,11 +161,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-07T09:41:38.582Z",
-    "duration": 8168.09,
-    "expected": 0,
+    "startTime": "2026-08-10T02:28:00.718Z",
+    "duration": 10982.036,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
