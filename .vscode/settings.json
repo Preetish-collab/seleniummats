@@ -1,0 +1,11 @@
+{
+  "problems.decorations.enabled": true,
+  "cucumberautocomplete.steps": [
+    "features/stepDefinitions/**/*.js"
+  ],
+  "cucumberautocomplete.syncFeatures": "features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.pages": [
+    "features/page/**/*.js"
+  ]
+}

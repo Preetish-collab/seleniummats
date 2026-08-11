@@ -4,7 +4,7 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "E:\\Play Wright\\playWrighttest\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "tests/StorageSession.spec.js",
+      "tests/Grouping.spec.js",
       "--project",
       "chromium",
       "--headed"
@@ -117,53 +117,218 @@
   },
   "suites": [
     {
-      "title": "StorageSession.spec.js",
-      "file": "StorageSession.spec.js",
+      "title": "Grouping.spec.js",
+      "file": "Grouping.spec.js",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "demoblaze login",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Group 1",
+          "file": "Grouping.spec.js",
+          "line": 19,
+          "column": 7,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "Test1",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 8377,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-08-10T02:28:01.841Z",
+                  "timeout": 30000,
                   "annotations": [],
-                  "attachments": []
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1334,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": " this is beforeAll ......\n"
+                        },
+                        {
+                          "text": " this is beforerEach ......\n"
+                        },
+                        {
+                          "text": " this is Test1 ......\n"
+                        },
+                        {
+                          "text": " this is afterEach ......\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-11T05:03:47.291Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "c3f4e99ce1eed373edc0-043df546213ed0b8cb85",
+              "file": "Grouping.spec.js",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Test2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 716,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": " this is beforerEach ......\n"
+                        },
+                        {
+                          "text": " this is Test2 ......\n"
+                        },
+                        {
+                          "text": " this is afterEach ......\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-11T05:03:49.862Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-088b11bb0d06a39565c7",
+              "file": "Grouping.spec.js",
+              "line": 25,
+              "column": 9
             }
-          ],
-          "id": "d6a438b295e5b058505b-b1906690cb541f1be04b",
-          "file": "StorageSession.spec.js",
-          "line": 3,
-          "column": 1
+          ]
+        },
+        {
+          "title": "Group 2",
+          "file": "Grouping.spec.js",
+          "line": 30,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Test3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 674,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": " this is beforerEach ......\n"
+                        },
+                        {
+                          "text": " this is Test3 ......\n"
+                        },
+                        {
+                          "text": " this is afterEach ......\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-11T05:03:50.641Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-f05599dd8cd55284010d",
+              "file": "Grouping.spec.js",
+              "line": 32,
+              "column": 9
+            },
+            {
+              "title": "Test4",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 683,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": " this is beforerEach ......\n"
+                        },
+                        {
+                          "text": " this is Test4 ......\n"
+                        },
+                        {
+                          "text": " this is afterEach ......\n"
+                        },
+                        {
+                          "text": " this is afterAll ......\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-11T05:03:51.351Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-77bf6d62bf85b7c7debe",
+              "file": "Grouping.spec.js",
+              "line": 36,
+              "column": 9
+            }
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-10T02:28:00.718Z",
-    "duration": 10982.036,
-    "expected": 1,
+    "startTime": "2026-08-11T05:03:46.649Z",
+    "duration": 6079.376,
+    "expected": 4,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

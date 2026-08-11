@@ -22,6 +22,7 @@ module.exports = defineConfig({
     trace: 'on-first-retry',
     screenshot: 'on-first-failure',
     video: 'retain-on-failure',
+    storageState:'./auth.json'
   },
   
   projects: [

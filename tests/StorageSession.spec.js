@@ -12,7 +12,7 @@ test('demoblaze login',async({browser})=>{
     const context=await browser.newContext({
         // Loads saved browser session data from the file auth.json.
         // This helps the test reuse login information without logging in again.
-        storageState: "./auth.json"
+         storageState: "./auth.json"
     })
     const page=await context.newPage();
     //Opens a new tab/page inside that browser context.
