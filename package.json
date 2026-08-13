@@ -7,7 +7,7 @@
     "tests": "tests"
   },
   "scripts": {
-     "test": "cucumber-js"
+    "test": "cucumber-js"
   },
   "keywords": [],
   "author": "",

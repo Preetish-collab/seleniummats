@@ -1,6 +1,10 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="28.349753">
-<testsuite name="Filechooser.spec.js" timestamp="2026-08-13T06:12:43.122Z" hostname="chromium" tests="1" failures="0" skipped="0" time="25.003" errors="0">
-<testcase name="upload a file using filechooser event" classname="Filechooser.spec.js" time="25.003">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="23.963869000000003">
+<testsuite name="ReadExcel.spec.js" timestamp="2026-08-13T14:48:25.415Z" hostname="chromium" tests="3" failures="0" skipped="0" time="17.833" errors="0">
+<testcase name="Login test for Admin1" classname="ReadExcel.spec.js" time="9.124">
+</testcase>
+<testcase name="Login test for Admin2" classname="ReadExcel.spec.js" time="5.574">
+</testcase>
+<testcase name="Login test for Admin3" classname="ReadExcel.spec.js" time="3.135">
 </testcase>
 </testsuite>
 </testsuites>
