@@ -4,7 +4,7 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "E:\\Play Wright\\playWrighttest\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "tests/ReadExcel.spec.js",
+      "tests/scrollIntoView.spec.js",
       "--project",
       "chromium",
       "--headed"
@@ -117,13 +117,13 @@
   },
   "suites": [
     {
-      "title": "ReadExcel.spec.js",
-      "file": "ReadExcel.spec.js",
+      "title": "ScrollIntoView.spec.js",
+      "file": "ScrollIntoView.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Login test for Admin1",
+          "title": "scrolloptions",
           "ok": true,
           "tags": [],
           "tests": [
@@ -138,12 +138,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9124,
+                  "duration": 15655,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-13T14:48:27.581Z",
+                  "startTime": "2026-08-14T03:11:38.720Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -151,87 +151,19 @@
               "status": "expected"
             }
           ],
-          "id": "38f1af1e3121de585387-c91fda2b318a94b61339",
-          "file": "ReadExcel.spec.js",
-          "line": 22,
-          "column": 3
-        },
-        {
-          "title": "Login test for Admin2",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 5574,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-08-13T14:48:38.192Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "38f1af1e3121de585387-d9cad2766f16b54e0073",
-          "file": "ReadExcel.spec.js",
-          "line": 22,
-          "column": 3
-        },
-        {
-          "title": "Login test for Admin3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 3135,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-08-13T14:48:43.849Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "38f1af1e3121de585387-bd846f22885b64abe678",
-          "file": "ReadExcel.spec.js",
-          "line": 22,
-          "column": 3
+          "id": "4292e25353127af276a8-bfa9d31a475c84125afd",
+          "file": "ScrollIntoView.spec.js",
+          "line": 3,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-13T14:48:24.148Z",
-    "duration": 23963.869000000002,
-    "expected": 3,
+    "startTime": "2026-08-14T03:11:35.928Z",
+    "duration": 45857.532999999996,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
