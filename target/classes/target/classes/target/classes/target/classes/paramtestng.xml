@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parallel" >
+    <parameter name="environment" value="qa"/>
+    <test name="parallel methods test" parallel="false">
+        <parameter name = "username" value="preetish1"/>
+        <parameter name="password" value="test123"/>
+        <parameter name="username1" value="preetish2"/>
+        <parameter name="password1" value="test456"/>
+        <parameter name="adminuser" value="preetishadmin"/>
+        <classes>
+            <class name="seleniumprac.TestNGParameter"/>
+
+        </classes>
+    </test>
+</suite>
