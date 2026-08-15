@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="45.857533">
-<testsuite name="ScrollIntoView.spec.js" timestamp="2026-08-14T03:11:36.133Z" hostname="chromium" tests="1" failures="0" skipped="0" time="15.655" errors="0">
-<testcase name="scrolloptions" classname="ScrollIntoView.spec.js" time="15.655">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.133868999999997">
+<testsuite name="Download.spec.js" timestamp="2026-08-14T11:36:21.197Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.908" errors="0">
+<testcase name="Download file" classname="Download.spec.js" time="12.908">
 </testcase>
 </testsuite>
 </testsuites>

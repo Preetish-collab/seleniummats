@@ -4,7 +4,7 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "E:\\Play Wright\\playWrighttest\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "tests/scrollIntoView.spec.js",
+      "tests/Download.spec.js",
       "--project",
       "chromium",
       "--headed"
@@ -117,13 +117,13 @@
   },
   "suites": [
     {
-      "title": "ScrollIntoView.spec.js",
-      "file": "ScrollIntoView.spec.js",
+      "title": "Download.spec.js",
+      "file": "Download.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "scrolloptions",
+          "title": "Download file",
           "ok": true,
           "tags": [],
           "tests": [
@@ -138,12 +138,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 15655,
+                  "duration": 12908,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-14T03:11:38.720Z",
+                  "startTime": "2026-08-14T11:36:22.155Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -151,8 +151,8 @@
               "status": "expected"
             }
           ],
-          "id": "4292e25353127af276a8-bfa9d31a475c84125afd",
-          "file": "ScrollIntoView.spec.js",
+          "id": "937176c2c629fad9ec63-256c0eeb9a8b13643861",
+          "file": "Download.spec.js",
           "line": 3,
           "column": 1
         }
@@ -161,8 +161,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-14T03:11:35.928Z",
-    "duration": 45857.532999999996,
+    "startTime": "2026-08-14T11:36:21.003Z",
+    "duration": 16133.868999999999,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

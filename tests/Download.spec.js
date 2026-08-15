@@ -17,4 +17,7 @@ test ('Download file', async ({page})=>{
 
 // 4. Save the file to your desired destination
 await download.saveAs('E:\\Play Wright\\playWrighttest\\tests\\downloads\\' + download.suggestedFilename());
+
+// 5. Take a screenshot of the browser showing the completed state
+  await page.screenshot({ path: 'screenshots/download-success.png', fullPage: true });
 });
