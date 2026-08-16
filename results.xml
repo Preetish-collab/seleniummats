@@ -1,6 +1,19 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.133868999999997">
-<testsuite name="Download.spec.js" timestamp="2026-08-14T11:36:21.197Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.908" errors="0">
-<testcase name="Download file" classname="Download.spec.js" time="12.908">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.684105">
+<testsuite name="ReadDataExcelfile.spec.js" timestamp="2026-08-16T04:09:33.552Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.073" errors="0">
+<testcase name="Read Excel and print to console" classname="ReadDataExcelfile.spec.js" time="0.073">
+<system-out>
+<![CDATA[--- ALL EXCEL DATA ---
+[
+  { username: [32m'Admin1'[39m, password: [32m'test1'[39m },
+  { username: [32m'Admin2'[39m, password: [32m'test2'[39m },
+  { username: [32m'Admin3'[39m, password: [32m'test3'[39m }
+]
+--- ROW BY ROW DATA ---
+Row 1: Username = Admin1, Password = test1
+Row 2: Username = Admin2, Password = test2
+Row 3: Username = Admin3, Password = test3
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

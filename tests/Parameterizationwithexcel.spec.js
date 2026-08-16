@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-const fs = require('fs');
+const fs = require('fs');//This code imports Node.js's built-in File System (fs) module into your JavaScript script.
 const XLSX = require('xlsx');
 // npx playwright test tests/Parameterizationwithexcel.spec.js --project chromium --headed
 //  loaded excel file
