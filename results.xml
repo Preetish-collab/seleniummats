@@ -1,19 +1,712 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.684105">
-<testsuite name="ReadDataExcelfile.spec.js" timestamp="2026-08-16T04:09:33.552Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.073" errors="0">
-<testcase name="Read Excel and print to console" classname="ReadDataExcelfile.spec.js" time="0.073">
-<system-out>
-<![CDATA[--- ALL EXCEL DATA ---
-[
-  { username: [32m'Admin1'[39m, password: [32m'test1'[39m },
-  { username: [32m'Admin2'[39m, password: [32m'test2'[39m },
-  { username: [32m'Admin3'[39m, password: [32m'test3'[39m }
-]
---- ROW BY ROW DATA ---
-Row 1: Username = Admin1, Password = test1
-Row 2: Username = Admin2, Password = test2
-Row 3: Username = Admin3, Password = test3
-]]>
-</system-out>
+<testsuites id="" name="" tests="136" failures="0" skipped="136" errors="0" time="5.561837">
+<testsuite name="Alert2.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Alert2" classname="Alert2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Confirm Alert with OK and Cancel" classname="Alert2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Alert with Textbox l" classname="Alert2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Alerts.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Alerts" classname="Alerts.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Confirm Alert with OK and Cancel" classname="Alerts.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Prompt Alert" classname="Alerts.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Amazon.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="AmazonPage" classname="Amazon.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Annotations.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="7" failures="0" skipped="7" time="0" errors="0">
+<testcase name="test1" classname="Annotations.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test2" classname="Annotations.spec.js">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test3" classname="Annotations.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test6" classname="Annotations.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test4" classname="Annotations.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test5" classname="Annotations.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test8" classname="Annotations.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Annotations2.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Skipped test" classname="Annotations2.spec.js">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Skip on WebKit" classname="Annotations2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Expected failure test" classname="Annotations2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Needs fixing" classname="Annotations2.spec.js">
+<properties>
+<property name="fixme" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Slow test execution" classname="Annotations2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="APiUtils.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="@QW Security test request intercept" classname="APiUtils.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="AuthBypass.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Authskip" classname="AuthBypass.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authskip2" classname="AuthBypass.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authskip3" classname="AuthBypass.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="AutoSuggestion.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="AutoSuggestion" classname="AutoSuggestion.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="BootstrapDropdown.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="BootstrapDropdown" classname="BootstrapDropdown.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="BringtoFront.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="FrontPage" classname="BringtoFront.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Brokenlinks.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="validate broken link on the webpage" classname="Brokenlinks.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="CheckBoxes.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="CheckBoxes" classname="CheckBoxes.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ChromeDevtoolsProtocol.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Cdp session" classname="ChromeDevtoolsProtocol.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="simulate network conditions" classname="ChromeDevtoolsProtocol.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ColorProperty.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Verify element text and background color" classname="ColorProperty.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Context.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Chat interaction between Admin and User" classname="Context.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Datadriven.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Datadriven logic test › Login with users 1 › Datadriventest 1" classname="Datadriven.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Datadriven logic test › Login with users 2 › Datadriventest 2" classname="Datadriven.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Datadriven logic test › Login with users 3 › Datadriventest 3" classname="Datadriven.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Datadriven logic test › Login with users 4 › Datadriventest 4" classname="Datadriven.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="DatePicker.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Date Picker" classname="DatePicker.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="DeleteCall.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Test DeleteApi" classname="DeleteCall.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="DeleteTemp.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Create and cleanup temp file" classname="DeleteTemp.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Demoapptest.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="orange Hrm" classname="Demoapptest.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Demoform.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Demoform" classname="Demoform.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Download.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Download file" classname="Download.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="DragAndDrop.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Drag And Drop" classname="DragAndDrop.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Dropdown.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Dropdown" classname="Dropdown.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="DummyPages.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Dummy test" classname="DummyPages.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ErrorsinPlaywright.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="handling timeout error" classname="ErrorsinPlaywright.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ExcelReader.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Login test for user: Admin1" classname="ExcelReader.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for user: Admin2" classname="ExcelReader.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for user: Admin3" classname="ExcelReader.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Filechooser.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="upload a file using filechooser event" classname="Filechooser.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="FramesHandle.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Frames" classname="FramesHandle.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="GetCall.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Test GetApi" classname="GetCall.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Grouping.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Group 1 › Test1" classname="Grouping.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Group 1 › Test2" classname="Grouping.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Group 2 › Test3" classname="Grouping.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Group 2 › Test4" classname="Grouping.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="HandleWindowPopup.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Handle Window Popup" classname="HandleWindowPopup.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="HandlingFrames.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="HandlingFrames" classname="HandlingFrames.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="HandlingInnerFrame.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Inner frames" classname="HandlingInnerFrame.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="HandlingWindows.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="HandlingWindows" classname="HandlingWindows.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="HandlingWindow" classname="HandlingWindows.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="HiddenDropDown.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="HiddenDropDown" classname="HiddenDropDown.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="HomePageTest.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Home Page" classname="HomePageTest.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Hooks1.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Home Page Test" classname="Hooks1.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add Product to cart Test" classname="Hooks1.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Hooks2.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Home Page Test NoOf products" classname="Hooks2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add Product to cart Test" classname="Hooks2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Hooks3.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Home Page Test NoOf products" classname="Hooks3.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add Product to cart Test" classname="Hooks3.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Hookstest.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="MyHomePage" classname="Hookstest.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Myinfo" classname="Hookstest.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="InputBox.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="InputBox" classname="InputBox.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="KeyboardActions.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Keyboard actions" classname="KeyboardActions.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Locators_builtin.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Builtin-Locators" classname="Locators_builtin.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Locators.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Locators" classname="Locators.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="MouseDoubleClick.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse Double Click" classname="MouseDoubleClick.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="MouseEvents.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Mouse hover" classname="MouseEvents.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Right Click" classname="MouseEvents.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Double Click" classname="MouseEvents.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Drag and Drop" classname="MouseEvents.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="MouseHover.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse hover" classname="MouseHover.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="MultiDimensionalArray.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Login test for laura.taylor1234@example.com and test123" classname="MultiDimensionalArray.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for invalid.taylor1234@example.com and test321" classname="MultiDimensionalArray.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for validuser@example.com and testxyz" classname="MultiDimensionalArray.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for  and " classname="MultiDimensionalArray.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Multiselect.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Multiselect" classname="Multiselect.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Parameterisationwithcsv.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Logincsv test for laura.taylor1234@example.com and test123" classname="Parameterisationwithcsv.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Logincsv test for invalid.taylor1234@example.com and test321" classname="Parameterisationwithcsv.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Logincsv test for validuser@example.com and testxyz" classname="Parameterisationwithcsv.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Logincsv test for  and " classname="Parameterisationwithcsv.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Parameterisewithjson.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Login test for laura.taylor1234@example.com and test123" classname="Parameterisewithjson.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for invalid.taylor1234@example.com and test321" classname="Parameterisewithjson.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for validuser@example.com and testxyz" classname="Parameterisewithjson.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for  and " classname="Parameterisewithjson.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Parameterizationwithexcel.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Loginexcel test for laura.taylor1234@example.com and test123" classname="Parameterizationwithexcel.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Loginexcel test for invalid.taylor1234@example.com and test321" classname="Parameterizationwithexcel.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Loginexcel test for validuser@example.com and test222" classname="Parameterizationwithexcel.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Loginexcel test for undefined and undefined" classname="Parameterizationwithexcel.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="pomtest.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="test" classname="pomtest.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="PostCall.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Test PostApi" classname="PostCall.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="PutCall.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Test PutApi" classname="PutCall.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="RadioButton.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="RadioButton" classname="RadioButton.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ReadDataExcelfile.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Read Excel and print to console" classname="ReadDataExcelfile.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ReadExcel.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Login test for Admin1" classname="ReadExcel.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for Admin2" classname="ReadExcel.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login test for Admin3" classname="ReadExcel.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="recordvideo.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="test" classname="recordvideo.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="screenshot.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="page screenshot" classname="screenshot.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Full page screenshot" classname="screenshot.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Element screenshot" classname="screenshot.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="screenshot2.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="test" classname="screenshot2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ScrollIntoView.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="scrolloptions" classname="ScrollIntoView.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ShadowDom.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="shadowdom" classname="ShadowDom.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="SingleDimensionalArray.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="search testlogin test $25 Virtual Gift Card" classname="SingleDimensionalArray.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="search testlogin test camera" classname="SingleDimensionalArray.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="search testlogin test smartphone" classname="SingleDimensionalArray.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="StorageSession.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="demoblaze login" classname="StorageSession.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Table.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="simple table" classname="Table.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="TableHandle.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="TableHandle" classname="TableHandle.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Tags.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="6" failures="0" skipped="6" time="0" errors="0">
+<testcase name="test1" classname="Tags.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test2@sanity" classname="Tags.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test3@sanity" classname="Tags.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test4@reg" classname="Tags.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test5@reg" classname="Tags.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test6@reg@sanity" classname="Tags.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Tags2.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Tagtest1" classname="Tags2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Tagtest2" classname="Tags2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Tagtest3" classname="Tags2.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="test.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Testweb" classname="test.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Tracing.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="test" classname="Tracing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="UploadFiles.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Single File" classname="UploadFiles.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Multiple Files" classname="UploadFiles.spec.js">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="WebAPI.spec.js" timestamp="2026-08-21T16:58:17.055Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="@SP Place the order" classname="WebAPI.spec.js">
+<skipped>
+</skipped>
 </testcase>
 </testsuite>
 </testsuites>

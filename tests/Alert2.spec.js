@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 //npx playwright test tests/Alert2.spec.js --project chromium --headed
-test('Alert2', async ({ page }) => {
+test.only('Alert2', async ({ page }) => {
   await page.goto('https://demo.automationtesting.in/Alerts.html');
   page.on('dialog', async dialog => {
     // Verify type of dialog
@@ -28,7 +28,7 @@ test('Confirm Alert with OK and Cancel', async ({ page }) => {
   await page.click("button.btn-primary");
   await page.waitForTimeout(6000);
   });
-  test.only('Alert with Textbox l', async ({ page }) => {
+  test('Alert with Textbox l', async ({ page }) => {
   await page.goto('https://demo.automationtesting.in/Alerts.html');
   page.on('dialog', async dialog => {
     // Verify type of dialog

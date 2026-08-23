@@ -16,12 +16,13 @@ module.exports = defineConfig({
   testDir: './tests',
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
-  workers: process.env.CI ? 1 : undefined,
-  reporter: [['list'], ['html'], ['junit', { outputFile: 'results.xml' }], ['json', { outputFile: 'resultsjson' }], ['allure-playwright', { outputFolder: 'allure-results' }]],
+  workers: process.env.CI ? 2 : undefined,
+  reporter: process.env.CI ? 'blob' : 'html',
+  // reporter: [['list'], ['html'], ['junit', { outputFile: 'results.xml' }], ['json', { outputFile: 'resultsjson' }], ['allure-playwright', { outputFolder: 'allure-results' }]],
   use: {
-    trace: 'on-first-retry',
+    trace: 'on',
     screenshot: 'on-first-failure',
-    video: 'retain-on-failure',
+    video: 'off',
     storageState:'./auth.json'
   },
   

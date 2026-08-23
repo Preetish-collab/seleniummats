@@ -8,7 +8,7 @@ test('TableHandle',async({page})=>{
     console.log('Number of columns:',await cols.count());
     const rows=await table.locator('tbody tr');//fetching all rows
     console.log('Number of rows:',await rows.count());
-    //  expect(await coloums.count()).toBe(4);
+    //  expect(await cols.count()).toBe(4);
     // expect(await rows.count()).toBe(5);
     
    //2 //applying filter on table for single match

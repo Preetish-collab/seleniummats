@@ -4,10 +4,8 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "E:\\Play Wright\\playWrighttest\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "tests/ReadDataExcelfile.spec.js",
-      "--project",
-      "chromium",
-      "--headed"
+      "--shard=1/3",
+      "--list"
     ],
     "configFile": "E:\\Play Wright\\playWrighttest\\playwright.config.js",
     "rootDir": "E:/Play Wright/playWrighttest/tests",
@@ -20,18 +18,14 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {
-      "actualWorkers": 1
-    },
+    "metadata": {},
     "preserveOutput": "always",
     "projects": [
       {
         "outputDir": "E:/Play Wright/playWrighttest/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
+        "metadata": {},
         "id": "chromium",
         "name": "chromium",
         "testDir": "E:/Play Wright/playWrighttest/tests",
@@ -45,9 +39,7 @@
         "outputDir": "E:/Play Wright/playWrighttest/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
+        "metadata": {},
         "id": "firefox",
         "name": "firefox",
         "testDir": "E:/Play Wright/playWrighttest/tests",
@@ -61,9 +53,7 @@
         "outputDir": "E:/Play Wright/playWrighttest/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
+        "metadata": {},
         "id": "webkit",
         "name": "webkit",
         "testDir": "E:/Play Wright/playWrighttest/tests",
@@ -107,7 +97,10 @@
       "max": 5,
       "threshold": 300000
     },
-    "shard": null,
+    "shard": {
+      "current": 1,
+      "total": 3
+    },
     "tags": [],
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
@@ -116,6 +109,2614 @@
     "webServer": null
   },
   "suites": [
+    {
+      "title": "Alert2.spec.js",
+      "file": "Alert2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Alert2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f7013cadeaf233fad025-a2fe3078c52fbd8134a0",
+          "file": "Alert2.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Confirm Alert with OK and Cancel",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f7013cadeaf233fad025-1e29aadf26b3ef3cfcd2",
+          "file": "Alert2.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Alert with Textbox l",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f7013cadeaf233fad025-6987ef41f9394ccaf41c",
+          "file": "Alert2.spec.js",
+          "line": 31,
+          "column": 8
+        }
+      ]
+    },
+    {
+      "title": "Alerts.spec.js",
+      "file": "Alerts.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-30606dcd2e5ddb6ea064",
+          "file": "Alerts.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Confirm Alert with OK and Cancel",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-6484d946cc4c3dc64f4d",
+          "file": "Alerts.spec.js",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "Prompt Alert",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2a47a96fdfc7190b297c-62c41bba812638805b4b",
+          "file": "Alerts.spec.js",
+          "line": 51,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Amazon.spec.js",
+      "file": "Amazon.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "AmazonPage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c2a922fc059f7818f163-e9b93a40f067dea05f30",
+          "file": "Amazon.spec.js",
+          "line": 6,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Annotations.spec.js",
+      "file": "Annotations.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e7b76bf7543d9b00a1-36a40353d034d6b162da",
+          "file": "Annotations.spec.js",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "test2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "location": {
+                    "file": "E:\\Play Wright\\playWrighttest\\tests\\Annotations.spec.js",
+                    "line": 10,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e7b76bf7543d9b00a1-d325cb9157caad3ae3da",
+          "file": "Annotations.spec.js",
+          "line": 10,
+          "column": 6
+        },
+        {
+          "title": "test3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e7b76bf7543d9b00a1-92b4423a3a90b0fb6493",
+          "file": "Annotations.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "test6",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e7b76bf7543d9b00a1-e459522890a0dd067684",
+          "file": "Annotations.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "test4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e7b76bf7543d9b00a1-d0f1627b8454e42169c2",
+          "file": "Annotations.spec.js",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "test5",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e7b76bf7543d9b00a1-770c7032ea2110b9c3e2",
+          "file": "Annotations.spec.js",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "test8",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e7b76bf7543d9b00a1-5ed54e0db3a42ebf435f",
+          "file": "Annotations.spec.js",
+          "line": 48,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Annotations2.spec.js",
+      "file": "Annotations2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Skipped test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "location": {
+                    "file": "E:\\Play Wright\\playWrighttest\\tests\\Annotations2.spec.js",
+                    "line": 4,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "69462cd7ad8540e0ee74-bb2df5cda3df95b4c88f",
+          "file": "Annotations2.spec.js",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "Skip on WebKit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "69462cd7ad8540e0ee74-2ba9643aa229f33e9077",
+          "file": "Annotations2.spec.js",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "Expected failure test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "69462cd7ad8540e0ee74-a387d2064483ea96bd54",
+          "file": "Annotations2.spec.js",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "Needs fixing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "fixme",
+                  "location": {
+                    "file": "E:\\Play Wright\\playWrighttest\\tests\\Annotations2.spec.js",
+                    "line": 23,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "69462cd7ad8540e0ee74-7e3ab580fd0f85027bfd",
+          "file": "Annotations2.spec.js",
+          "line": 23,
+          "column": 6
+        },
+        {
+          "title": "Slow test execution",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "69462cd7ad8540e0ee74-7d202cd5a2dbd6a444e1",
+          "file": "Annotations2.spec.js",
+          "line": 28,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "APiUtils.spec.js",
+      "file": "APiUtils.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@QW Security test request intercept",
+          "ok": true,
+          "tags": [
+            "QW"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "62b86a4031dd5bd7d578-7ca58fee1d97f024305d",
+          "file": "APiUtils.spec.js",
+          "line": 3,
+          "column": 2
+        }
+      ]
+    },
+    {
+      "title": "AuthBypass.spec.js",
+      "file": "AuthBypass.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Authskip",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1e769878ab891eda4791-7f4ab75bda3953623b9c",
+          "file": "AuthBypass.spec.js",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Authskip2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1e769878ab891eda4791-f71a60b3dc984e60a11b",
+          "file": "AuthBypass.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Authskip3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1e769878ab891eda4791-b8bbc1d789f18fd485af",
+          "file": "AuthBypass.spec.js",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "AutoSuggestion.spec.js",
+      "file": "AutoSuggestion.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "AutoSuggestion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f01a94e260f722479f99-42de96f09542590d9a71",
+          "file": "AutoSuggestion.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "BootstrapDropdown.spec.js",
+      "file": "BootstrapDropdown.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "BootstrapDropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "52f9b04e1cd59ddae0c3-cfd0df013cc1fff09f42",
+          "file": "BootstrapDropdown.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "BringtoFront.spec.js",
+      "file": "BringtoFront.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FrontPage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "37867e7fd7b66feb4760-dc9b638cf2ce0e941fd9",
+          "file": "BringtoFront.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Brokenlinks.spec.js",
+      "file": "Brokenlinks.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "validate broken link on the webpage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f9df519a2381372dd38d-bd45d9646ccbf3ec08e8",
+          "file": "Brokenlinks.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "CheckBoxes.spec.js",
+      "file": "CheckBoxes.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "CheckBoxes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0111c65f52dddf76fb4c-af7538666355da04c833",
+          "file": "CheckBoxes.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ChromeDevtoolsProtocol.spec.js",
+      "file": "ChromeDevtoolsProtocol.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Cdp session",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e5d4d1d6d62f9a560ba8-8c8f397f3a9553fd4af0",
+          "file": "ChromeDevtoolsProtocol.spec.js",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "simulate network conditions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e5d4d1d6d62f9a560ba8-a90e73093dbcc4af7fdd",
+          "file": "ChromeDevtoolsProtocol.spec.js",
+          "line": 17,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ColorProperty.spec.js",
+      "file": "ColorProperty.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify element text and background color",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bb9a5cd981ab5a16d3fb-19cc4cd9e45a447191b7",
+          "file": "ColorProperty.spec.js",
+          "line": 22,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Context.spec.js",
+      "file": "Context.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Chat interaction between Admin and User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0bfcc01cd48d68bbf515-af4e27ca24aca1cd3b23",
+          "file": "Context.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Datadriven.spec.js",
+      "file": "Datadriven.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Datadriven logic test",
+          "file": "Datadriven.spec.js",
+          "line": 8,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Login with users 1",
+              "file": "Datadriven.spec.js",
+              "line": 12,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Datadriventest 1",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "0a262ea69f9e2ab2e712-0ac92562d8759bb6142d",
+                  "file": "Datadriven.spec.js",
+                  "line": 14,
+                  "column": 7
+                }
+              ]
+            },
+            {
+              "title": "Login with users 2",
+              "file": "Datadriven.spec.js",
+              "line": 12,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Datadriventest 2",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "0a262ea69f9e2ab2e712-60d41913507bf9252c06",
+                  "file": "Datadriven.spec.js",
+                  "line": 14,
+                  "column": 7
+                }
+              ]
+            },
+            {
+              "title": "Login with users 3",
+              "file": "Datadriven.spec.js",
+              "line": 12,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Datadriventest 3",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "0a262ea69f9e2ab2e712-2046ee35ac87fb38472c",
+                  "file": "Datadriven.spec.js",
+                  "line": 14,
+                  "column": 7
+                }
+              ]
+            },
+            {
+              "title": "Login with users 4",
+              "file": "Datadriven.spec.js",
+              "line": 12,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "Datadriventest 4",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "0a262ea69f9e2ab2e712-1641a08d14527c4fece8",
+                  "file": "Datadriven.spec.js",
+                  "line": 14,
+                  "column": 7
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "DatePicker.spec.js",
+      "file": "DatePicker.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Date Picker",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4773d51b2b17878c2ecc-171a05155f43f6eb0df9",
+          "file": "DatePicker.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "DeleteCall.spec.js",
+      "file": "DeleteCall.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test DeleteApi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "828536b23c5305d8e96c-9a89e056a5f8b8ca31e1",
+          "file": "DeleteCall.spec.js",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "DeleteTemp.spec.js",
+      "file": "DeleteTemp.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create and cleanup temp file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2da27a016883403ef512-be1203f9a6b9bd50a8c2",
+          "file": "DeleteTemp.spec.js",
+          "line": 21,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Demoapptest.spec.js",
+      "file": "Demoapptest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "orange Hrm",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e325d920dafffc8eaeb7-df81e13a514982d15190",
+          "file": "Demoapptest.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Demoform.spec.js",
+      "file": "Demoform.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Demoform",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "011b7f6fe7feb60f1c88-9017d0b60a57e5243779",
+          "file": "Demoform.spec.js",
+          "line": 8,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Download.spec.js",
+      "file": "Download.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Download file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "937176c2c629fad9ec63-256c0eeb9a8b13643861",
+          "file": "Download.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "DragAndDrop.spec.js",
+      "file": "DragAndDrop.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Drag And Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7656450f323735ff5508-79c10746c5689877a4ae",
+          "file": "DragAndDrop.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Dropdown.spec.js",
+      "file": "Dropdown.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "74f4881119bae32540dd-d51102b22c1c532a7e5c",
+          "file": "Dropdown.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "DummyPages.spec.js",
+      "file": "DummyPages.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Dummy test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ee358890f54f867a74f2-120fc57b7ddc43c89c8b",
+          "file": "DummyPages.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ErrorsinPlaywright.spec.js",
+      "file": "ErrorsinPlaywright.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "handling timeout error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4e58fa51aa249cc5b2da-da895de346613b0c18ac",
+          "file": "ErrorsinPlaywright.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ExcelReader.spec.js",
+      "file": "ExcelReader.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login test for user: Admin1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1b740155175dd38d5276-e5cc75ba13b6e32fd69c",
+          "file": "ExcelReader.spec.js",
+          "line": 20,
+          "column": 3
+        },
+        {
+          "title": "Login test for user: Admin2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1b740155175dd38d5276-f238485edb8fdf136b1b",
+          "file": "ExcelReader.spec.js",
+          "line": 20,
+          "column": 3
+        },
+        {
+          "title": "Login test for user: Admin3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1b740155175dd38d5276-1164de0f3d632e13145e",
+          "file": "ExcelReader.spec.js",
+          "line": 20,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "Filechooser.spec.js",
+      "file": "Filechooser.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "upload a file using filechooser event",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2f88d8d37e4f6630cd1c-731a7072fd5056ac2355",
+          "file": "Filechooser.spec.js",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "FramesHandle.spec.js",
+      "file": "FramesHandle.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Frames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4d0cb91ea89cb1e016f3-a464e6f248e69e02cdff",
+          "file": "FramesHandle.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "GetCall.spec.js",
+      "file": "GetCall.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test GetApi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b62d89e0df514ddf4586-8108b4d844d10f95c656",
+          "file": "GetCall.spec.js",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Grouping.spec.js",
+      "file": "Grouping.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Group 1",
+          "file": "Grouping.spec.js",
+          "line": 19,
+          "column": 7,
+          "specs": [
+            {
+              "title": "Test1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-043df546213ed0b8cb85",
+              "file": "Grouping.spec.js",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Test2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-088b11bb0d06a39565c7",
+              "file": "Grouping.spec.js",
+              "line": 25,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Group 2",
+          "file": "Grouping.spec.js",
+          "line": 30,
+          "column": 8,
+          "specs": [
+            {
+              "title": "Test3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-f05599dd8cd55284010d",
+              "file": "Grouping.spec.js",
+              "line": 32,
+              "column": 9
+            },
+            {
+              "title": "Test4",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "c3f4e99ce1eed373edc0-77bf6d62bf85b7c7debe",
+              "file": "Grouping.spec.js",
+              "line": 36,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "HandleWindowPopup.spec.js",
+      "file": "HandleWindowPopup.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Handle Window Popup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "706e33b2a224768d6879-acbf0038d83496225524",
+          "file": "HandleWindowPopup.spec.js",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "HandlingFrames.spec.js",
+      "file": "HandlingFrames.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "HandlingFrames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ed00fe3495f60d885602-b8ce2a880b1229a62e64",
+          "file": "HandlingFrames.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "HandlingInnerFrame.spec.js",
+      "file": "HandlingInnerFrame.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Inner frames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "19d58b3ce082610d620b-f370dc5996d46885d43c",
+          "file": "HandlingInnerFrame.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "HandlingWindows.spec.js",
+      "file": "HandlingWindows.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "HandlingWindows",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "70b5deb1ecc6a7de13e2-434e6ef496e9888818fa",
+          "file": "HandlingWindows.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "HandlingWindow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "70b5deb1ecc6a7de13e2-47ae730c976d7eae6db2",
+          "file": "HandlingWindows.spec.js",
+          "line": 33,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "HiddenDropDown.spec.js",
+      "file": "HiddenDropDown.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "HiddenDropDown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3b8cbffc893b684b519a-087b3d515fa904fe86e6",
+          "file": "HiddenDropDown.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "HomePageTest.spec.js",
+      "file": "HomePageTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Home Page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8825c0a621355ee16b0d-e5ba8316989eaaa651a9",
+          "file": "HomePageTest.spec.js",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Hooks1.spec.js",
+      "file": "Hooks1.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Home Page Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "19a8de9a8a8a87bb2bae-7c124405e59ebf607626",
+          "file": "Hooks1.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Add Product to cart Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "19a8de9a8a8a87bb2bae-3b62904f508d863086c3",
+          "file": "Hooks1.spec.js",
+          "line": 22,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Hooks2.spec.js",
+      "file": "Hooks2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Home Page Test NoOf products",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "51c3860cb0d4bfbe935f-d67504f285bb90d6ab93",
+          "file": "Hooks2.spec.js",
+          "line": 19,
+          "column": 6
+        },
+        {
+          "title": "Add Product to cart Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "51c3860cb0d4bfbe935f-589d604cfeaad49205b4",
+          "file": "Hooks2.spec.js",
+          "line": 25,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "Hooks3.spec.js",
+      "file": "Hooks3.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Home Page Test NoOf products",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "42dbfa5582889091b7ae-a2dbe4cae41339fee89b",
+          "file": "Hooks3.spec.js",
+          "line": 19,
+          "column": 6
+        },
+        {
+          "title": "Add Product to cart Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "42dbfa5582889091b7ae-f4c324b70dde3901a4c6",
+          "file": "Hooks3.spec.js",
+          "line": 25,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "Hookstest.spec.js",
+      "file": "Hookstest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "MyHomePage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ccb14caf8da03c09eb85-11a99b079a8aacb333a4",
+          "file": "Hookstest.spec.js",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "Myinfo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ccb14caf8da03c09eb85-4b9c28cd2c4bbd9a2e4b",
+          "file": "Hookstest.spec.js",
+          "line": 28,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "InputBox.spec.js",
+      "file": "InputBox.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "InputBox",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c81a1fec6a4d0ed3747b-176a8f0d273e67a5d233",
+          "file": "InputBox.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "KeyboardActions.spec.js",
+      "file": "KeyboardActions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Keyboard actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "309d62528d3d7495aaf7-d072c3d8eafd5e942a18",
+          "file": "KeyboardActions.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Locators_builtin.spec.js",
+      "file": "Locators_builtin.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Builtin-Locators",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ab93fed6f077477fa8d0-8660ba275acdd6f7c206",
+          "file": "Locators_builtin.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Locators.spec.js",
+      "file": "Locators.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Locators",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5e83d96c57501bba7f-cdf2a5ec64173f11bb14",
+          "file": "Locators.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "MouseDoubleClick.spec.js",
+      "file": "MouseDoubleClick.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Double Click",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7edbc3ac6d9e6be93d4f-6b2b8442b5a2db4b19f7",
+          "file": "MouseDoubleClick.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "MouseEvents.spec.js",
+      "file": "MouseEvents.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse hover",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "99844560912af47e1f9a-9090fed59d661df292c0",
+          "file": "MouseEvents.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Right Click",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "99844560912af47e1f9a-c7f39b20c72baae0a1f1",
+          "file": "MouseEvents.spec.js",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "Double Click",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "99844560912af47e1f9a-3c50447e05b006887c24",
+          "file": "MouseEvents.spec.js",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "Drag and Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "99844560912af47e1f9a-4a9db50c929ab6a36657",
+          "file": "MouseEvents.spec.js",
+          "line": 49,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "MouseHover.spec.js",
+      "file": "MouseHover.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse hover",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4828b242b81ce2d200fa-450753b065335e76ad7c",
+          "file": "MouseHover.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "MultiDimensionalArray.spec.js",
+      "file": "MultiDimensionalArray.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login test for laura.taylor1234@example.com and test123",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c17ee62dfd84b0170ea7-d72eeca6928b5a76e1f0",
+          "file": "MultiDimensionalArray.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Login test for invalid.taylor1234@example.com and test321",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c17ee62dfd84b0170ea7-44bb4b806a149b313021",
+          "file": "MultiDimensionalArray.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Login test for validuser@example.com and testxyz",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c17ee62dfd84b0170ea7-52dfd2617bc2a4521779",
+          "file": "MultiDimensionalArray.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Login test for  and ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c17ee62dfd84b0170ea7-142a9d3e20bca51edaad",
+          "file": "MultiDimensionalArray.spec.js",
+          "line": 13,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Multiselect.spec.js",
+      "file": "Multiselect.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Multiselect",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "492ab5be0a20de499e1d-bffff283eb1c6932e827",
+          "file": "Multiselect.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Parameterisationwithcsv.spec.js",
+      "file": "Parameterisationwithcsv.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Logincsv test for laura.taylor1234@example.com and test123",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "89ece18bb4afb646ac0f-e4ee3abc32b43008dce8",
+          "file": "Parameterisationwithcsv.spec.js",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Logincsv test for invalid.taylor1234@example.com and test321",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "89ece18bb4afb646ac0f-3bd2bd4db06a90a48abc",
+          "file": "Parameterisationwithcsv.spec.js",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Logincsv test for validuser@example.com and testxyz",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "89ece18bb4afb646ac0f-ab18ccc166d34aa0c38b",
+          "file": "Parameterisationwithcsv.spec.js",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Logincsv test for  and ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "89ece18bb4afb646ac0f-2d46e9025f853038c927",
+          "file": "Parameterisationwithcsv.spec.js",
+          "line": 17,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Parameterisewithjson.spec.js",
+      "file": "Parameterisewithjson.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login test for laura.taylor1234@example.com and test123",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b0e4fc4583bbf384be16-ed1ed58924d645d46036",
+          "file": "Parameterisewithjson.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Login test for invalid.taylor1234@example.com and test321",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b0e4fc4583bbf384be16-f53ad14445029ce13673",
+          "file": "Parameterisewithjson.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Login test for validuser@example.com and testxyz",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b0e4fc4583bbf384be16-e849aee29161383e8b85",
+          "file": "Parameterisewithjson.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Login test for  and ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b0e4fc4583bbf384be16-eff096dec4c2ba06a478",
+          "file": "Parameterisewithjson.spec.js",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Parameterizationwithexcel.spec.js",
+      "file": "Parameterizationwithexcel.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Loginexcel test for laura.taylor1234@example.com and test123",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f5da0b83f443e1941df3-afa41614dbd16a781e73",
+          "file": "Parameterizationwithexcel.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Loginexcel test for invalid.taylor1234@example.com and test321",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f5da0b83f443e1941df3-adf2ea5e7dcf48ab2dba",
+          "file": "Parameterizationwithexcel.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Loginexcel test for validuser@example.com and test222",
+          "ok": true,
+          "tags": [
+            "example.com"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f5da0b83f443e1941df3-7d26e31ab8d492aead89",
+          "file": "Parameterizationwithexcel.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Loginexcel test for undefined and undefined",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f5da0b83f443e1941df3-90f85a2050837f962280",
+          "file": "Parameterizationwithexcel.spec.js",
+          "line": 13,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "pomtest.spec.js",
+      "file": "pomtest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0d26061efb231c075fb0-cfc74f6c0f28e3195602",
+          "file": "pomtest.spec.js",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "PostCall.spec.js",
+      "file": "PostCall.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test PostApi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c002342c30f5b1c9f926-bac6ea47551207866d0e",
+          "file": "PostCall.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "PutCall.spec.js",
+      "file": "PutCall.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test PutApi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ea26a4aa672ec365eb03-b7bf16549b4952a050ff",
+          "file": "PutCall.spec.js",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "RadioButton.spec.js",
+      "file": "RadioButton.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "RadioButton",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ccd19a1e54b1b9cf6b8c-e754a6dc9c5534dcdc27",
+          "file": "RadioButton.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
     {
       "title": "ReadDataExcelfile.spec.js",
       "file": "ReadDataExcelfile.spec.js",
@@ -133,41 +2734,8 @@
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 73,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "--- ALL EXCEL DATA ---\n"
-                    },
-                    {
-                      "text": "[\n  { username: \u001b[32m'Admin1'\u001b[39m, password: \u001b[32m'test1'\u001b[39m },\n  { username: \u001b[32m'Admin2'\u001b[39m, password: \u001b[32m'test2'\u001b[39m },\n  { username: \u001b[32m'Admin3'\u001b[39m, password: \u001b[32m'test3'\u001b[39m }\n]\n"
-                    },
-                    {
-                      "text": "--- ROW BY ROW DATA ---\n"
-                    },
-                    {
-                      "text": "Row 1: Username = Admin1, Password = test1\n"
-                    },
-                    {
-                      "text": "Row 2: Username = Admin2, Password = test2\n"
-                    },
-                    {
-                      "text": "Row 3: Username = Admin3, Password = test3\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-08-16T04:09:34.653Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "4721051eb4c22ba515ca-beb2cb50c99272798fd8",
@@ -176,14 +2744,838 @@
           "column": 1
         }
       ]
+    },
+    {
+      "title": "ReadExcel.spec.js",
+      "file": "ReadExcel.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login test for Admin1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "38f1af1e3121de585387-c91fda2b318a94b61339",
+          "file": "ReadExcel.spec.js",
+          "line": 21,
+          "column": 3
+        },
+        {
+          "title": "Login test for Admin2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "38f1af1e3121de585387-d9cad2766f16b54e0073",
+          "file": "ReadExcel.spec.js",
+          "line": 21,
+          "column": 3
+        },
+        {
+          "title": "Login test for Admin3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "38f1af1e3121de585387-bd846f22885b64abe678",
+          "file": "ReadExcel.spec.js",
+          "line": 21,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "recordvideo.spec.js",
+      "file": "recordvideo.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c4fbe630a7dd7d6965f2-10a4c12130d6a6ae167c",
+          "file": "recordvideo.spec.js",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Reporters.spec.js",
+      "file": "Reporters.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "399bcd1299f62012f68d-95434237692cbd161c3b",
+          "file": "Reporters.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Test2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "399bcd1299f62012f68d-064de90a5d2bda0e3e44",
+          "file": "Reporters.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Test3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "399bcd1299f62012f68d-6ef640acef5b31d772c8",
+          "file": "Reporters.spec.js",
+          "line": 17,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "screenshot.spec.js",
+      "file": "screenshot.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "page screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b6aa675bc40ab83f8367-785c9d43a2752643dbbe",
+          "file": "screenshot.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Full page screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b6aa675bc40ab83f8367-803f456629593f12d6bc",
+          "file": "screenshot.spec.js",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "Element screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b6aa675bc40ab83f8367-d6bbddcc00d8dc38c176",
+          "file": "screenshot.spec.js",
+          "line": 13,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "screenshot2.spec.js",
+      "file": "screenshot2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ce4fef6cd46af01cb168-6e44206be3c9a48d9bae",
+          "file": "screenshot2.spec.js",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ScrollIntoView.spec.js",
+      "file": "ScrollIntoView.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "scrolloptions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4292e25353127af276a8-bfa9d31a475c84125afd",
+          "file": "ScrollIntoView.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ShadowDom.spec.js",
+      "file": "ShadowDom.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "shadowdom",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dcab5ab4071057060fd3-6e0eedd683e5e13c753f",
+          "file": "ShadowDom.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "SingleDimensionalArray.spec.js",
+      "file": "SingleDimensionalArray.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "search testlogin test $25 Virtual Gift Card",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1335c59ba1e583d27ef0-9571c68defb793771800",
+          "file": "SingleDimensionalArray.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "search testlogin test camera",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1335c59ba1e583d27ef0-4f953d59952bc619f17e",
+          "file": "SingleDimensionalArray.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "search testlogin test smartphone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1335c59ba1e583d27ef0-bd1b676059cbd45d0608",
+          "file": "SingleDimensionalArray.spec.js",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "StorageSession.spec.js",
+      "file": "StorageSession.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "demoblaze login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d6a438b295e5b058505b-b1906690cb541f1be04b",
+          "file": "StorageSession.spec.js",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Table.spec.js",
+      "file": "Table.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "simple table",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0c82e0270907cb59ec27-3b3e1e87f3867b12a6da",
+          "file": "Table.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "TableHandle.spec.js",
+      "file": "TableHandle.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TableHandle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "4ec0caae61526c56ab1f-5fee866de91d7607d19d",
+          "file": "TableHandle.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Tags.spec.js",
+      "file": "Tags.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-d4fee9527a7866044470",
+          "file": "Tags.spec.js",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "test2@sanity",
+          "ok": true,
+          "tags": [
+            "sanity"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-df0520e1b9754ecce781",
+          "file": "Tags.spec.js",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "test3@sanity",
+          "ok": true,
+          "tags": [
+            "sanity"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-b0295ba7ccecf515ef39",
+          "file": "Tags.spec.js",
+          "line": 30,
+          "column": 1
+        },
+        {
+          "title": "test4@reg",
+          "ok": true,
+          "tags": [
+            "reg"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-18215abf052c76808037",
+          "file": "Tags.spec.js",
+          "line": 35,
+          "column": 1
+        },
+        {
+          "title": "test5@reg",
+          "ok": true,
+          "tags": [
+            "reg"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-4d2c79a94c981aac2620",
+          "file": "Tags.spec.js",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "test6@reg@sanity",
+          "ok": true,
+          "tags": [
+            "reg@sanity"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b65badf50e3a937bc6c0-f80e24137e6b98ce7727",
+          "file": "Tags.spec.js",
+          "line": 44,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Tags2.spec.js",
+      "file": "Tags2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Tagtest1",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "362471464fd4d34876cd-4d6579b7d0cb1f172d30",
+          "file": "Tags2.spec.js",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Tagtest2",
+          "ok": true,
+          "tags": [
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "362471464fd4d34876cd-61f4c144b4e1b885f57b",
+          "file": "Tags2.spec.js",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "Tagtest3",
+          "ok": true,
+          "tags": [
+            "regression",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "362471464fd4d34876cd-0c6838f99b26cd525918",
+          "file": "Tags2.spec.js",
+          "line": 21,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "test.spec.js",
+      "file": "test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Testweb",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "31be70adcd52654ff551-eb686ca73abfde245d6b",
+          "file": "test.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Tracing.spec.js",
+      "file": "Tracing.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6f3016fddc6617a47ff2-61a3da85dc8166e6767d",
+          "file": "Tracing.spec.js",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "UploadFiles.spec.js",
+      "file": "UploadFiles.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Single File",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0a075e35e680030c2597-e6640bd0c1064e65c01b",
+          "file": "UploadFiles.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "Multiple Files",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "location": {
+                    "file": "E:\\Play Wright\\playWrighttest\\tests\\UploadFiles.spec.js",
+                    "line": 19,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0a075e35e680030c2597-61f31c8ceef55845f8db",
+          "file": "UploadFiles.spec.js",
+          "line": 19,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "WebAPI.spec.js",
+      "file": "WebAPI.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@SP Place the order",
+          "ok": true,
+          "tags": [
+            "SP"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "1a2d98dd7dafbb143305-af96a3a4b08928936ce9",
+          "file": "WebAPI.spec.js",
+          "line": 38,
+          "column": 1
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-16T04:09:33.256Z",
-    "duration": 1684.105,
-    "expected": 1,
-    "skipped": 0,
+    "startTime": "2026-08-21T16:58:11.500Z",
+    "duration": 5561.8369999999995,
+    "expected": 0,
+    "skipped": 136,
     "unexpected": 0,
     "flaky": 0
   }

@@ -1,0 +1,75 @@
+name: Playwright Sharded Tests
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+
+jobs:
+  # 1. Run Playwright shards in parallel
+  test-shards:
+    name: "Run Shard ${{ matrix.shardIndex }}/4"
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shardIndex: [1, 2, 3, 4]
+        shardTotal: [4]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests for current shard
+        run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
+
+      # Upload the generated blob report as a job artifact
+      - name: Upload Blob Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blob-reports-${{ matrix.shardIndex }}
+          path: blob-report
+          retention-days: 1
+
+  # 2. Merge individual shard reports into one final HTML report
+  merge-reports:
+    name: Merge Reports
+    if: always()
+    needs: [test-shards]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Download all blob reports from previous jobs
+      - name: Download Blob Reports
+        uses: actions/download-artifact@v4
+        with:
+          path: all-blob-reports
+          pattern: blob-reports-*
+          merge-multiple: true
+
+      # Combine blob reports into a standard HTML report
+      - name: Merge Reports
+        run: npx playwright merge-reports --reporter html ./all-blob-reports
+
+      # Upload the final consolidated HTML report
+      - name: Upload Final HTML Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-report
+          path: playwright-report
+          retention-days: 14
