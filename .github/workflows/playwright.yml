@@ -1,13 +1,17 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [feature/develop2ts ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ feature/develop2ts ]
 jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shardIndex: [1, 2]
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
@@ -18,10 +22,40 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npx playwright test --shard=${{ matrix.shardIndex }}/2
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
-        name: playwright-report
-        path: playwright-report/
+        name: blob-report-${{ matrix.shard }}
+        path: blob-report
         retention-days: 30
+merge-reports:
+  needs: [playwright-tests]
+  runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+    - name: Download artifacts
+     uses: actions/download-artifact@v4
+      with:
+        path: all-blob-reports
+        pattern: blob-report-*
+        merge-multiple: true
+      - name: Merge Playwright reports
+        run: npx playwright merge-reports --report html ./all-blob-reports
+
+      - name: Upload playwright combinedreport
+      uses: actions/upload-artifact@v4
+      with:
+        name: html-report
+        path: playwright-report
+        retention-days: 30
+      - uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          
