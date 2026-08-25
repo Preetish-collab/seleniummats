@@ -47,11 +47,20 @@ jobs:
           path: all-blob-reports
           pattern: blob-report-*
           merge-multiple: true
+      
       - name: Merge Playwright reports
-        run: npx playwright merge-reports --reporter html ./all-blob-reports
-      - name: Upload playwright combined report
-        uses: actions/upload-artifact@v4
-        with:
-          name: html-report
-          path: playwright-report
-          retention-days: 30
+        
+        if: ${{ !cancelled() }}
+        run: |
+        mkdir -p ./all-blob-reports
+        if [ -d "./all-blob-reports" ] && [ "$(ls -A ./all-blob-reports)" ]; then
+        npx playwright merge-reports --reporter html ./all-blob-reports
+    else
+      echo "No blob reports found to merge."
+    fi
+  - name: Upload playwright combined report
+    uses: actions/upload-artifact@v4
+    with:
+        name: html-report
+        path: playwright-report
+        retention-days: 30
