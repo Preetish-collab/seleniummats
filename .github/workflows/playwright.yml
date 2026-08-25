@@ -23,7 +23,7 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
-        run: npx playwright test --shard=${{ matrix.shardIndex }}/2
+        run: npx playwright test --shard=${{ matrix.shardIndex }}/2 --reporter=blob
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
@@ -44,8 +44,8 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          path: all-blob-reports
           pattern: blob-report-*
+          path: all-blob-reports
           merge-multiple: true
       - name: Merge Playwright reports
         run: npx playwright merge-reports --reporter html ./all-blob-reports
