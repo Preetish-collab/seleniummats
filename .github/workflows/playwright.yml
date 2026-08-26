@@ -24,14 +24,15 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: npx playwright test --shard=${{ matrix.shardIndex }}/2 
-      - name: Upload Allure results (Shard ${{ matrix.shard }})
+      - name: Upload Allure results (Shard ${{ matrix.shardIndex }})
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results-shard-${{ matrix.shard }}
+          name: allure-results-shard-${{ matrix.shardIndex }}
           path: allure-results
 
   merge-allure-report:
-    needs: playwright-tests
+    needs: test
     if: always()
     runs-on: ubuntu-latest
 
