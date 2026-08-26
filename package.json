@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "playwright test",
-  "test:headed": "playwright test --headed",
-  "test:debug": "playwright test --debug",
-  "test:ui": "playwright test --ui",
-  "test:chromium": "playwright test --project=chromium",
-  "test:firefox": "playwright test --project=firefox",
-  "test:webkit": "playwright test --project=webkit",
-  "test:dev": "cross-env ENV=dev playwright test",
-  "test:qa": "cross-env ENV=qa playwright test",
-  "test:stage": "cross-env ENV=stage playwright test",
-  "test:prod": "cross-env ENV=prod playwright test"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:dev": "cross-env ENV=dev playwright test",
+    "test:qa": "cross-env ENV=qa playwright test",
+    "test:stage": "cross-env ENV=stage playwright test",
+    "test:prod": "cross-env ENV=prod playwright test"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +24,11 @@
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.2.0",
     "allure-playwright": "^3.11.0",
+    "dotenv": "^17.4.2",
     "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "openai": "^7.5.0"
   }
 }

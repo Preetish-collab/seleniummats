@@ -1,0 +1,55 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: aitest.spec.ts >> AI Playwright Agent Test
+- Location: tests\aitest.spec.ts:4:5
+
+# Error details
+
+```
+Error: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.
+```
+
+# Test source
+
+```ts
+  1  | const path = require("path");
+  2  | const dotenv = require("dotenv");
+  3  | const OpenAI = require("openai");
+  4  | const promptTemplate = require("./promptTemplate");
+  5  | 
+  6  | dotenv.config({ path: path.resolve(__dirname, "../.env") });
+  7  | dotenv.config({ path: path.resolve(__dirname, "../key.env") });
+  8  | 
+  9  | function getOpenAIClient() {
+  10 |   const apiKey = process.env.OPENAI_API_KEY?.trim();
+  11 | 
+  12 |   if (!apiKey) {
+  13 |     throw new Error(
+  14 |       "OPENAI_API_KEY is missing. Add it to E:\\playwrightTS\\.env or E:\\playwrightTS\\key.env."
+  15 |     );
+  16 |   }
+  17 | 
+  18 |   return new OpenAI({ apiKey });
+  19 | }
+  20 | 
+  21 | async function generatePlaywrightCode(task) {
+  22 |   const client = getOpenAIClient();
+  23 |   const prompt = promptTemplate(task);
+  24 | 
+> 25 |   const response = await client.chat.completions.create({
+     |                    ^ Error: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.
+  26 |     model: "gpt-4o-mini",
+  27 |     messages: [{ role: "user", content: prompt }],
+  28 |   });
+  29 | 
+  30 |   return response.choices[0].message.content;
+  31 | }
+  32 | 
+  33 | module.exports = generatePlaywrightCode;
+```

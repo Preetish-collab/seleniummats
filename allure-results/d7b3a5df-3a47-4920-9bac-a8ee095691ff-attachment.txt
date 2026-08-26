@@ -1,0 +1,8 @@
+Generated Playwright Code:
+
+      await page.goto("https://www.google.com");
+      await page.locator("textarea[name='q'], input[name='q']").first().fill("Playwright");
+      await page.keyboard.press("Enter");
+      await page.locator("#search a").first().click();
+      await page.screenshot({ path: "screenshots/playwright-search.png", fullPage: true });
+    
