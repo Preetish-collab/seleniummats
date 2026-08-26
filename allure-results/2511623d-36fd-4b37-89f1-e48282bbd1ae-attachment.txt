@@ -1,0 +1,13 @@
+####Product API Intercepted####
+URL: https://react-shopping-cart-67954.firebaseio.com/products.json
+Method: GET
+Headers: {
+  accept: 'application/json, text/plain, */*',
+  'accept-language': 'en-US',
+  origin: 'https://react-shopping-cart-67954.firebaseapp.com',
+  referer: 'https://react-shopping-cart-67954.firebaseapp.com/',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.34 Safari/537.36',
+  'sec-ch-ua': '"Chromium";v="151", "Not=A?Brand";v="99"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"'
+}

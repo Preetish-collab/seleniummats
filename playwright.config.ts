@@ -14,6 +14,13 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
+  globalSetup: require.resolve('./.github/workflows/global-setup/setup'),
+
+  globalTeardown: require.resolve('./.github/workflows/global-setup/teardown'),
+  use: {
+    // Reuse the saved HTTP authentication state across tests
+    storageState: 'auth.json',
+  },
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */

@@ -1,0 +1,11 @@
+STORE
+Models are:::  Samsung galaxy s6
+Models are:::  Nokia lumia 1520
+Models are:::  Nexus 6
+Models are:::  Samsung galaxy s7
+Models are:::  Iphone 6 32gb
+Models are:::  Sony xperia z5
+Models are:::  HTC One M9
+Models are:::  Sony vaio i5
+Models are:::  Sony vaio i7
+
