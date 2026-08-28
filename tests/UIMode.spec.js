@@ -6,7 +6,6 @@ const logger = require('./LoggerUtil');
 test('uimode@smoke',async({page})=>{
  page.goto("https://www.demoblaze.com/");
  logger.info("Navigated to the demoblaze website");
- await page.waitForTimeout(5000);
  await expect(page).toHaveURL("https://www.demoblaze.com/");
  const pagetitle= await page.title();
  console.log("Page Title",pagetitle);

@@ -15,8 +15,10 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
+    "@reportportal/agent-js-playwright": "^5.4.2",
     "@types/node": "^26.1.0",
     "allure-playwright": "^3.10.2",
+    "monocart-reporter": "^2.12.6",
     "playwright-bdd": "^9.2.0",
     "winston": "^3.19.0"
   },
@@ -27,6 +29,7 @@
     "csv-parser": "^3.2.1",
     "exceljs": "^4.4.0",
     "express": "^5.2.1",
+    "playwright-mail-reporter": "^0.0.10",
     "xlsx": "^0.18.5"
   }
 }
