@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-//npx playwright test Test1.spec.ts  --headed --workers=3  -parallel execution
+//npx playwright test Test1.spec.ts  --headed --workers=3  --parallel execution
 test('Demoblaze',async({page})=>{
     const run=5;
     for(let i=0;i<run;i++){

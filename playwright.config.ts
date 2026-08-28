@@ -19,10 +19,6 @@ export default defineConfig({
   globalSetup: require.resolve('./.github/workflows/global-setup/setup'),
 
   globalTeardown: require.resolve('./.github/workflows/global-setup/teardown'),
-  use: {
-    // Reuse the saved HTTP authentication state across tests
-    storageState: 'auth.json',
-  },
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -33,13 +29,14 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   // reporter: process.env.CI ? 'blob' : 'html',
-  reporter:[
-    ['allure-playwright']
-  ],
+  reporter: [['html', { outputFolder: 'playwright-report', open: 'never' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
+
+    // Reuse the saved HTTP authentication state across tests
+    storageState: 'auth.json',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
