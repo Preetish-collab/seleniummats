@@ -1,5 +1,0 @@
-email,password,validity
-laura.taylor1234@example.com,test123,valid
-invalid.taylor1234@example.com,test321,invalid
-validuser@example.com,testxyz,invalid
-"","",invalid
