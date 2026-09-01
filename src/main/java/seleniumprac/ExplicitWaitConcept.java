@@ -35,6 +35,7 @@ public class ExplicitWaitConcept{
                 // Scenario 3: Wait until page URL contains 'success'
                 wait.until(ExpectedConditions.urlContains("success"));
 
+
             } finally {
                 driver.quit();
             }

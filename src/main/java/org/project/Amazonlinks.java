@@ -16,7 +16,7 @@ public static WebDriver driver;
         WebDriverManager.chromedriver().setup();
 
         // Launch Browser
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
 
         // Open Application
         driver.get("https://www.amazon.in");
