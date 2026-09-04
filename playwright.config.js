@@ -13,18 +13,18 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  * 
  */
-const RPconfig = {
-  apiKey: process.env.RP_API_KEY || 'reportal_V6nU_ewaTSqtxphURlNl_9p18q9OJ0XEucX7fgdfgQ5pqoxbXhmX47llwXssxU8d',
-  endpoint: 'https://demo.reportportal.io/api/v1',
-  project: 'preetish-collab_personal',
-  launch: 'Launch name',
-  description: 'E2E Regression Run',
-  attributes: [
-    { key: 'env', value: 'staging' },
-    { key: 'tool', value: 'playwright' }
-  ],
-  includeTestSteps: true, // Reports Playwright test.step() entries as nested steps
-};
+// const RPconfig = {
+//   apiKey: process.env.RP_API_KEY || 'reportal_V6nU_ewaTSqtxphURlNl_9p18q9OJ0XEucX7fgdfgQ5pqoxbXhmX47llwXssxU8d',
+//   endpoint: 'https://demo.reportportal.io/api/v1',
+//   project: 'preetish-collab_personal',
+//   launch: 'Launch name',
+//   description: 'E2E Regression Run',
+//   attributes: [
+//     { key: 'env', value: 'staging' },
+//     { key: 'tool', value: 'playwright' }
+//   ],
+//   includeTestSteps: true, // Reports Playwright test.step() entries as nested steps
+// };
 module.exports = defineConfig({
   testDir: './tests',
   fullyParallel: false,
@@ -33,7 +33,8 @@ module.exports = defineConfig({
   // reporter: process.env.CI ? 'blob' : 'html',
   //  reporter: [['list'], ['html'], ['junit', { outputFile: 'results.xml' }], ['json', { outputFile: 'resultsjson' }], ['allure-playwright', { outputFolder: 'allure-results' }]],
   // reporter: [['list'], ['html'],['monocart-reporter', { outputFile: 'monocart-results/index.html' }]],
-   reporter: [['line'], ['@reportportal/agent-js-playwright', RPconfig]],
+    reporter: [['line'], ['html']],
+    // reporter: [['line'], ['@reportportal/agent-js-playwright']], // Enable with proper RPconfig when needed
   use: {
     trace: 'retain-on-failure',
     screenshot: 'on-first-failure',

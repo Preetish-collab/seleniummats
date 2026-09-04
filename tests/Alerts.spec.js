@@ -7,10 +7,10 @@ test('Alerts', async ({ page }) => {
   //page.on('dialog', async dialog => await dialog.accept());
   page.on('dialog', async dialog => {
     // Verify type of dialog
-    // expect(dialog.type()).toContain('alert');   
+    expect(dialog.type()).toContain('alert');   
     
     // verify message of alert
-    //expect(dialog.message()).toContain('I am an alert box!');
+    expect(dialog.message()).toContain('I am an alert box!');
     
     //click on alert ok button
     await dialog.accept();
