@@ -7,7 +7,8 @@
     "tests": "tests"
   },
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js",
+    "heal": "node self-heal.js"
   },
   "keywords": [],
   "author": "",
@@ -27,8 +28,11 @@
     "@faker-js/faker": "^10.6.0",
     "csv-parse": "^7.0.1",
     "csv-parser": "^3.2.1",
+    "dotenv": "^18.0.1",
     "exceljs": "^4.4.0",
     "express": "^5.2.1",
+    "luxon": "^3.7.2",
+    "mysql2": "^3.24.4",
     "playwright-mail-reporter": "^0.0.10",
     "xlsx": "^0.18.5"
   }

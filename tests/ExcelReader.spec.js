@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const { test } = require('@playwright/test');
 const XLSX = require('xlsx');
 const path = require('path');
 //npx playwright test tests/ExcelReader.spec.js --project chromium --headed

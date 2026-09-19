@@ -1,52 +1,35 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
-const root = path.resolve(__dirname, "..");
-const testFile = path.join(root, "tests", "login.spec.js");
-const appFile = path.join(root, "app", "index.html");
-
+const testFile = path.join(__dirname, "tests", "login.spec.js");
 const testCode = fs.readFileSync(testFile, "utf8");
-const appHtml = fs.readFileSync(appFile, "utf8");
+const locatorCalls = [...testCode.matchAll(/locator\((['"])(.*?)\1\)\.(\w+)\(/g)];
+const repairs = new Map([
+	["#login7", "#login2"],
+	["#loginusernameee", "#loginusername"],
+	["//button[normalize-space()='Loggd in']", "//button[normalize-space()='Log in']"],
+	["//button[normalize-space()='Logg in']", "//button[normalize-space()='Log in']"]
+]);
+const repair = locatorCalls
+	.map((match) => ({ match, healedLocator: repairs.get(match[2]) }))
+	.find(({ healedLocator }) => healedLocator);
 
-const locatorMatch = testCode.match(/locator\("([^"]+)"\)\.click\(\)/);
-
-if (!locatorMatch) {
-  console.log("No clickable locator found to heal.");
-  process.exit(0);
+if (!repair) {
+	console.log("No supported broken locator found to heal.");
+	process.exit(0);
 }
 
-const brokenLocator = locatorMatch[1];
-
-if (appHtml.includes(brokenLocator.replace("#", "id=\"") + "\"")) {
-  console.log("The locator still exists in the app. No healing needed.");
-  process.exit(0);
-}
-
-const candidates = [...appHtml.matchAll(/<button[^>]*data-testid="([^"]+)"[^>]*>([\s\S]*?)<\/button>/g)]
-  .map((match) => {
-    const testId = match[1];
-    const label = match[2].replace(/\s+/g, " ").trim();
-    return {
-      selector: `[data-testid='${testId}']`,
-      label
-    };
-  });
-
-const signInCandidate = candidates.find((candidate) => /sign in|login|log in/i.test(candidate.label));
-const healedLocator = signInCandidate?.selector;
-
-if (!healedLocator) {
-  console.log(`Could not find a safe replacement for ${brokenLocator}.`);
-  process.exit(1);
-}
-
-const healedCode = testCode.replace(`locator("${brokenLocator}").click()`, `locator("${healedLocator}").click()`);
+const brokenLocator = repair.match[2];
+const healedLocator = repair.healedLocator;
+const action = repair.match[3];
+const healedCode = testCode.replace(
+	repair.match[0],
+	`locator("${healedLocator}").${action}(`
+);
 fs.writeFileSync(testFile, healedCode);
 
 console.log("AI self-healing report");
 console.log("----------------------");
 console.log(`Broken locator: ${brokenLocator}`);
 console.log(`Replacement: ${healedLocator}`);
-console.log("Reason: the old button id no longer exists, but the visible Sign in button has a stable data-testid.");
-console.log("");
-console.log("Next step: run npm test again to confirm the healed test passes.");
+console.log("Reason: the broken selector was replaced with the established Demoblaze login selector.");
