@@ -12,5 +12,8 @@ test('Demoblaze',async({page})=>{
     await page.locator('input#loginpassword').fill('test@123');
     await page.getByRole('button',{name:'Log in'}).click();
     await expect(page.locator("//a[contains(text(),'Welcome')]")).toBeTruthy();
-    }
+    
+        
+}
+
 }) 

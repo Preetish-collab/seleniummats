@@ -14,6 +14,7 @@ export default async function globalTeardown() {
     console.warn(
       'Skipping report email: set GMAIL_USER, GMAIL_APP_PASSWORD, and REPORT_RECIPIENT in key.env. Use a Gmail app password, not the account password.',
     );
+    console.log('TEARDOWN FINISHED');
     return;
   }
 
@@ -44,6 +45,8 @@ export default async function globalTeardown() {
     console.log('Report email sent successfully!');
   } catch (error) {
     console.error('Failed to send report email:', error);
+  } 
+  finally {
+    console.log('TEARDOWN FINISHED');
   }
-  console.log('TEARDOWN FINISHED');
 }
